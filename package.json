@@ -1,0 +1,30 @@
+{
+  "name": "musifyserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index",
+    "lint-init": "eslint --init"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "better-logging": "^4.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "ffmpeg": "^0.0.4",
+    "get-mp3-duration": "^1.0.0",
+    "moment": "^2.29.1",
+    "mongoose": "^6.2.1",
+    "multer": "^1.4.4",
+    "youtube-audio-stream": "^0.3.53"
+  },
+  "devDependencies": {
+    "eslint": "^8.8.0",
+    "nodemon": "^2.0.15"
+  }
+}
