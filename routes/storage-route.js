@@ -63,7 +63,8 @@ router.get("/youtube-to-song", (req, res) => {
     // youtube to mp3
     const stream = youtube(req.query.url);
     // write stream to file
-    const filename = req.query.url.split("/").pop() + ".mp3";
+    const filename =
+      req.query.filename || req.query.url.split("/").pop() + ".mp3";
     const file = fs.createWriteStream(
       path.join(__dirname, "..", "storage/musics", filename)
     );

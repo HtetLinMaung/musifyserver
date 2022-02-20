@@ -37,7 +37,7 @@ router
         }
       }
       const response = { ...CREATED, data: artist };
-      res.status(CREATED).json(response);
+      res.status(CREATED.code).json(response);
       logger.info(`Response: ${JSON.stringify(response, null, 2)}`);
     } catch (err) {
       logger.error(err.message);

@@ -1,17 +1,20 @@
 const { Schema, model } = require("mongoose");
-const { REQUIRED_STRING } = require("../constants/mongoose-constant");
+const {
+  REQUIRED_STRING,
+  DEFAULT_STRING,
+} = require("../constants/mongoose-constant");
 
 const songSchema = new Schema(
   {
     name: REQUIRED_STRING,
-    description: REQUIRED_STRING,
+    description: DEFAULT_STRING,
     url: REQUIRED_STRING,
     wallpaper: REQUIRED_STRING,
     duration: {
       type: Number,
       default: 0,
     },
-    artistid: {
+    artist: {
       type: Schema.Types.ObjectId,
       ref: "Artist",
     },

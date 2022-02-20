@@ -1,7 +1,6 @@
 require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
-const youtube = require("youtube-audio-stream");
 const fs = require("fs");
 const logger = require("./utils/logger");
 const mongoose = require("mongoose");
@@ -23,8 +22,9 @@ app.use("/musifyserver/albums", require("./routes/album-route"));
 app.use("/musifyserver/songs", require("./routes/song-route"));
 app.use("/musifyserver/categories", require("./routes/category-route"));
 
-app.get("/stream", (req, res) => {
-  const music = "storage/musics/music.mp3"; // filepath
+app.get("/musifyserver/stream", (req, res) => {
+  const music = req.query.k.replace("/", ""); // filepath
+
   const stat = fs.statSync(music);
   const range = req.headers.range;
   let readStream;
@@ -66,15 +66,6 @@ app.get("/stream", (req, res) => {
     readStream = fs.createReadStream(music);
   }
   readStream.pipe(res);
-});
-
-app.get("/youtube-to-mp3", (req, res) => {
-  // youtube to mp3
-  const stream = youtube(req.query.url);
-  // write stream to file
-  const file = fs.createWriteStream("storage/musics/music.mp3");
-  stream.pipe(file);
-  res.json({ message: "success" });
 });
 
 mongoose

@@ -24,10 +24,10 @@ router
     try {
       logger.info("Creating song");
       logger.info(`Request body: ${JSON.stringify(req.body, null, 2)}`);
-      const buffer = fs.readFileSync(req.body.url);
+      const buffer = fs.readFileSync(path.join(__dirname, "..", req.body.url));
       const duration = getMP3Duration(buffer);
 
-      const artist = await Artist.findById(req.body.artistid);
+      const artist = await Artist.findById(req.body.artist);
       if (!artist) {
         return res
           .status(NOT_FOUND.code)
@@ -40,7 +40,7 @@ router
         url: req.body.url,
         wallpaper: req.body.wallpaper,
         duration,
-        artistid: req.body.artistid,
+        artist: req.body.artist,
         albums: req.body.albums,
         lyrics: req.body.lyrics,
         categories: req.body.categories,
@@ -75,7 +75,7 @@ router
       }
 
       const response = { ...CREATED, data: song };
-      res.status(CREATED).json(response);
+      res.status(CREATED.code).json(response);
       logger.info(`Response: ${JSON.stringify(response, null, 2)}`);
     } catch (err) {
       logger.error(err.message);
@@ -156,21 +156,25 @@ router
             data = await Song.find(filter, req.query.projection || "")
               .sort(sortOptions)
               .skip(offset)
-              .limit(perpage);
+              .limit(perpage)
+              .populate("artist");
           } else {
             data = await Song.find(filter, req.query.projection || "")
               .skip(offset)
-              .limit(perpage);
+              .limit(perpage)
+              .populate("artist");
           }
 
           pagination.pagecounts = Math.ceil(total / perpage);
         } else {
           if (sort) {
-            data = await Song.find(filter, req.query.projection || "").sort(
-              sortOptions
-            );
+            data = await Song.find(filter, req.query.projection || "")
+              .sort(sortOptions)
+              .populate("artist");
           } else {
-            data = await Song.find(filter, req.query.projection || "");
+            data = await Song.find(filter, req.query.projection || "").populate(
+              "artist"
+            );
           }
         }
       }
@@ -193,7 +197,7 @@ router
       const data = await Song.findById(
         req.params.id,
         req.query.projection || ""
-      ).populate("artistid", "albums", "categories");
+      ).populate("artist", "albums", "categories");
       if (!data) {
         return res
           .status(NOT_FOUND.code)
@@ -212,7 +216,7 @@ router
       logger.info("Updating song");
       logger.info(`Request params: ${JSON.stringify(req.params, null, 2)}`);
       logger.info(`Request body: ${JSON.stringify(req.body, null, 2)}`);
-      const buffer = fs.readFileSync(req.body.url);
+      const buffer = fs.readFileSync(path.join(__dirname, "..", req.body.url));
       const duration = getMP3Duration(buffer);
 
       const data = await Song.findById(req.params.id);
@@ -261,8 +265,8 @@ router
       data.duration = duration;
       await data.save();
 
-      if (req.body.artistid) {
-        const artist = await Artist.findById(req.body.artistid);
+      if (req.body.artist) {
+        const artist = await Artist.findById(req.body.artist);
         if (!artist) {
           return res
             .status(NOT_FOUND.code)
@@ -310,7 +314,7 @@ router
           .status(NOT_FOUND.code)
           .json({ ...NOT_FOUND, message: "Song not found" });
       }
-      const artist = await Artist.findById(data.artistid);
+      const artist = await Artist.findById(data.artist);
       if (!artist) {
         return res
           .status(NOT_FOUND.code)

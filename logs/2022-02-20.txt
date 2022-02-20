@@ -3559,3 +3559,6812 @@
 [09:36:23] [INFO] Server listening on port 3002
 [09:36:29] [INFO] Server listening on port 3002
 [09:36:40] [INFO] Server listening on port 3002
+[10:19:43] [ERROR] MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+[10:21:37] [INFO] Server listening on port 3002
+[10:23:13] [INFO] Server listening on port 3002
+[10:23:33] [INFO] Server listening on port 3002
+[10:23:35] [INFO] Server listening on port 3002
+[10:27:07] [INFO] Server listening on port 3002
+[10:30:04] [INFO] Server listening on port 3002
+[10:30:56] [INFO] Server listening on port 3002
+[10:34:18] [INFO] Server listening on port 3002
+[10:34:34] [INFO] Server listening on port 3002
+[10:34:36] [INFO] Server listening on port 3002
+[10:35:08] [INFO] Server listening on port 3002
+[10:41:08] [INFO] Uploading file
+[10:41:08] [INFO] Multer file: {
+  "fieldname": "file",
+  "originalname": "dua-lipa.jpeg",
+  "encoding": "7bit",
+  "mimetype": "image/jpeg",
+  "destination": "/home/hlm/app/musifyserver/storage/public",
+  "filename": "dua-lipa-1645328468294-682032201.jpeg",
+  "path": "/home/hlm/app/musifyserver/storage/public/dua-lipa-1645328468294-682032201.jpeg",
+  "size": 14909
+}
+[10:42:01] [INFO] Creating artist
+[10:42:01] [INFO] Request body: {
+  "name": "Dua Lipa",
+  "profile": "/musifyserver/dua-lipa-1645328468294-682032201.jpeg",
+  "songs": []
+}
+[10:42:01] [ERROR] Invalid status code: { code: 201, message: 'Created Successful' }
+[10:42:14] [INFO] Server listening on port 3002
+[10:42:40] [INFO] Getting artists
+[10:42:40] [INFO] Request query: {}
+[10:42:40] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211b88903c297293143ecc8",
+      "profile": "/musifyserver/dua-lipa-1645328468294-682032201.jpeg",
+      "name": "Dua Lipa",
+      "songs": [],
+      "createdAt": "2022-02-20T03:42:01.896Z",
+      "updatedAt": "2022-02-20T03:42:01.896Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[10:46:19] [INFO] Getting categories
+[10:46:19] [INFO] Request query: {}
+[10:46:19] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[10:49:35] [INFO] Uploading file
+[10:49:35] [INFO] Multer file: {
+  "fieldname": "file",
+  "originalname": "levitating-wallpaper.jpeg",
+  "encoding": "7bit",
+  "mimetype": "image/jpeg",
+  "destination": "/home/hlm/app/musifyserver/storage/public",
+  "filename": "levitating-wallpaper-1645328975637-575707989.jpeg",
+  "path": "/home/hlm/app/musifyserver/storage/public/levitating-wallpaper-1645328975637-575707989.jpeg",
+  "size": 43327
+}
+[10:50:37] [INFO] Creating song
+[10:50:37] [INFO] Request body: {
+  "name": "Levitating",
+  "description": "",
+  "url": "/storage/musics/Levitating.mp3",
+  "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+  "artistid": "6211b88903c297293143ecc8",
+  "albums": [
+    "621177be5ef3c3d9d5091211"
+  ],
+  "lyrics": [],
+  "categories": [
+    "621077951de644a70d1a6bb4"
+  ]
+}
+[10:50:37] [ERROR] ENOENT: no such file or directory, open '/storage/musics/Levitating.mp3'
+[10:51:17] [INFO] Server listening on port 3002
+[10:51:20] [INFO] Server listening on port 3002
+[10:51:22] [INFO] Server listening on port 3002
+[10:51:30] [INFO] Creating song
+[10:51:30] [INFO] Request body: {
+  "name": "Levitating",
+  "description": "",
+  "url": "/storage/musics/Levitating.mp3",
+  "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+  "artistid": "6211b88903c297293143ecc8",
+  "albums": [
+    "621177be5ef3c3d9d5091211"
+  ],
+  "lyrics": [],
+  "categories": [
+    "621077951de644a70d1a6bb4"
+  ]
+}
+[10:51:30] [ERROR] ENOENT: no such file or directory, open '../storage/musics/Levitating.mp3'
+[10:51:44] [INFO] Server listening on port 3002
+[10:51:47] [INFO] Creating song
+[10:51:47] [INFO] Request body: {
+  "name": "Levitating",
+  "description": "",
+  "url": "/storage/musics/Levitating.mp3",
+  "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+  "artistid": "6211b88903c297293143ecc8",
+  "albums": [
+    "621177be5ef3c3d9d5091211"
+  ],
+  "lyrics": [],
+  "categories": [
+    "621077951de644a70d1a6bb4"
+  ]
+}
+[10:51:47] [ERROR] Song validation failed: description: Path `description` is required.
+[10:52:27] [INFO] Server listening on port 3002
+[10:52:30] [INFO] Creating song
+[10:52:30] [INFO] Request body: {
+  "name": "Levitating",
+  "description": "",
+  "url": "/storage/musics/Levitating.mp3",
+  "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+  "artistid": "6211b88903c297293143ecc8",
+  "albums": [
+    "621177be5ef3c3d9d5091211"
+  ],
+  "lyrics": [],
+  "categories": [
+    "621077951de644a70d1a6bb4"
+  ]
+}
+[10:52:30] [ERROR] Invalid status code: { code: 201, message: 'Created Successful' }
+[10:52:43] [INFO] Server listening on port 3002
+[10:53:01] [INFO] Getting songs
+[10:53:01] [INFO] Request query: {}
+[10:53:01] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": "6211b88903c297293143ecc8",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T03:52:30.723Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[10:55:22] [INFO] Server listening on port 3002
+[10:57:06] [INFO] Server listening on port 3002
+[10:57:43] [INFO] Server listening on port 3002
+[10:58:06] [INFO] Server listening on port 3002
+[10:59:30] [INFO] Server listening on port 3002
+[10:59:36] [INFO] Server listening on port 3002
+[10:59:38] [INFO] Server listening on port 3002
+[11:03:16] [INFO] Server listening on port 3002
+[11:24:57] [INFO] Getting categories
+[11:24:57] [INFO] Request query: {}
+[11:24:57] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T03:52:30.759Z",
+      "__v": 2
+    }
+  ],
+  "total": 1
+}
+[11:24:57] [INFO] Getting albums
+[11:24:57] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[11:24:57] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T03:52:30.753Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[11:25:26] [INFO] Getting categories
+[11:25:26] [INFO] Request query: {}
+[11:25:26] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T03:52:30.759Z",
+      "__v": 2
+    }
+  ],
+  "total": 1
+}
+[11:25:26] [INFO] Getting albums
+[11:25:26] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[11:25:26] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T03:52:30.753Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[11:28:14] [INFO] Getting categories
+[11:28:14] [INFO] Request query: {}
+[11:28:14] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T03:52:30.759Z",
+      "__v": 2
+    }
+  ],
+  "total": 1
+}
+[11:28:14] [INFO] Getting albums
+[11:28:14] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[11:28:14] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T03:52:30.753Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[11:29:05] [INFO] Getting categories
+[11:29:05] [INFO] Request query: {}
+[11:29:05] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T03:52:30.759Z",
+      "__v": 2
+    }
+  ],
+  "total": 1
+}
+[11:29:05] [INFO] Getting albums
+[11:29:05] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[11:29:05] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T03:52:30.753Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[11:29:18] [INFO] Getting categories
+[11:29:18] [INFO] Request query: {}
+[11:29:18] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T03:52:30.759Z",
+      "__v": 2
+    }
+  ],
+  "total": 1
+}
+[11:29:18] [INFO] Getting albums
+[11:29:18] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[11:29:18] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T03:52:30.753Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[11:29:31] [INFO] Getting categories
+[11:29:31] [INFO] Request query: {}
+[11:29:31] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T03:52:30.759Z",
+      "__v": 2
+    }
+  ],
+  "total": 1
+}
+[11:29:31] [INFO] Getting albums
+[11:29:31] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[11:29:31] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T03:52:30.753Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[11:29:36] [INFO] Getting categories
+[11:29:36] [INFO] Request query: {}
+[11:29:36] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T03:52:30.759Z",
+      "__v": 2
+    }
+  ],
+  "total": 1
+}
+[11:29:36] [INFO] Getting albums
+[11:29:36] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[11:29:36] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T03:52:30.753Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[11:31:44] [INFO] Getting categories
+[11:31:44] [INFO] Request query: {}
+[11:31:44] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T03:52:30.759Z",
+      "__v": 2
+    }
+  ],
+  "total": 1
+}
+[11:31:45] [INFO] Getting albums
+[11:31:45] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[11:31:45] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T03:52:30.753Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[11:34:09] [INFO] Getting categories
+[11:34:09] [INFO] Request query: {}
+[11:34:09] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T03:52:30.759Z",
+      "__v": 2
+    }
+  ],
+  "total": 1
+}
+[11:34:09] [INFO] Getting albums
+[11:34:09] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[11:34:09] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T03:52:30.753Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[11:34:22] [INFO] Getting categories
+[11:34:22] [INFO] Request query: {}
+[11:34:22] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T03:52:30.759Z",
+      "__v": 2
+    }
+  ],
+  "total": 1
+}
+[11:34:22] [INFO] Getting albums
+[11:34:22] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[11:34:22] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T03:52:30.753Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[11:54:03] [INFO] Getting categories
+[11:54:03] [INFO] Request query: {}
+[11:54:03] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T03:52:30.759Z",
+      "__v": 2
+    }
+  ],
+  "total": 1
+}
+[11:54:03] [INFO] Getting albums
+[11:54:03] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[11:54:03] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T03:52:30.753Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[11:55:42] [INFO] Getting songs
+[11:55:42] [INFO] Request query: {
+  "albums": "621177be5ef3c3d9d5091211"
+}
+[11:55:42] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": "6211b88903c297293143ecc8",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T03:52:30.723Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[11:57:28] [INFO] Getting songs
+[11:57:28] [INFO] Request query: {
+  "albums": "621177be5ef3c3d9d5091211"
+}
+[11:57:28] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": "6211b88903c297293143ecc8",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T03:52:30.723Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[11:57:28] [INFO] Getting categories
+[11:57:28] [INFO] Request query: {}
+[11:57:28] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T03:52:30.759Z",
+      "__v": 2
+    }
+  ],
+  "total": 1
+}
+[12:01:24] [INFO] Getting categories
+[12:01:24] [INFO] Request query: {}
+[12:01:24] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T03:52:30.759Z",
+      "__v": 2
+    }
+  ],
+  "total": 1
+}
+[12:01:24] [INFO] Getting albums
+[12:01:24] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[12:01:24] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T03:52:30.753Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[12:03:30] [INFO] Updating category
+[12:03:30] [INFO] Request params: {
+  "id": "621077951de644a70d1a6bb4"
+}
+[12:03:30] [INFO] Request body: {
+  "name": "New Music",
+  "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+  "albums": [],
+  "songs": []
+}
+[12:03:30] [ERROR] ENOENT: no such file or directory, unlink '/home/hlm/app/musifyserver/public/pexels-photo-1021876-1645246038454-744224240.jpeg'
+[12:03:30] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": {
+    "_id": "621077951de644a70d1a6bb4",
+    "name": "New Music",
+    "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+    "albums": [],
+    "songs": [],
+    "createdAt": "2022-02-19T04:52:37.578Z",
+    "updatedAt": "2022-02-20T05:03:30.394Z",
+    "__v": 3
+  }
+}
+[12:04:24] [INFO] Updating category
+[12:04:24] [INFO] Request params: {
+  "id": "621077951de644a70d1a6bb4"
+}
+[12:04:24] [INFO] Request body: {
+  "name": "New Music",
+  "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+  "albums": [
+    "621177be5ef3c3d9d5091211"
+  ],
+  "songs": [
+    "6211bafe9aa9113f688eb157"
+  ]
+}
+[12:04:24] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": {
+    "_id": "621077951de644a70d1a6bb4",
+    "name": "New Music",
+    "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+    "albums": [
+      "621177be5ef3c3d9d5091211"
+    ],
+    "songs": [
+      "6211bafe9aa9113f688eb157"
+    ],
+    "createdAt": "2022-02-19T04:52:37.578Z",
+    "updatedAt": "2022-02-20T05:04:24.543Z",
+    "__v": 4
+  }
+}
+[12:04:30] [INFO] Getting categories
+[12:04:30] [INFO] Request query: {}
+[12:04:30] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T05:04:24.543Z",
+      "__v": 4
+    }
+  ],
+  "total": 1
+}
+[12:05:06] [INFO] Getting categories
+[12:05:06] [INFO] Request query: {}
+[12:05:06] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T05:04:24.543Z",
+      "__v": 4
+    }
+  ],
+  "total": 1
+}
+[12:05:07] [INFO] Getting albums
+[12:05:07] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[12:05:07] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T05:04:24.549Z",
+      "__v": 3
+    }
+  ],
+  "total": 1
+}
+[12:05:29] [INFO] Getting categories
+[12:05:29] [INFO] Request query: {}
+[12:05:29] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T05:04:24.543Z",
+      "__v": 4
+    }
+  ],
+  "total": 1
+}
+[12:05:29] [INFO] Getting albums
+[12:05:29] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[12:05:29] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T05:04:24.549Z",
+      "__v": 3
+    }
+  ],
+  "total": 1
+}
+[12:05:56] [INFO] Getting categories
+[12:05:56] [INFO] Request query: {}
+[12:05:56] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T05:04:24.543Z",
+      "__v": 4
+    }
+  ],
+  "total": 1
+}
+[12:06:52] [INFO] Getting categories
+[12:06:52] [INFO] Request query: {}
+[12:06:52] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T05:04:24.543Z",
+      "__v": 4
+    }
+  ],
+  "total": 1
+}
+[12:06:53] [INFO] Getting albums
+[12:06:53] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[12:06:53] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T05:04:24.549Z",
+      "__v": 3
+    }
+  ],
+  "total": 1
+}
+[12:07:35] [INFO] Getting albums
+[12:07:35] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[12:07:35] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T05:04:24.549Z",
+      "__v": 3
+    }
+  ],
+  "total": 1
+}
+[12:08:56] [INFO] Updating album
+[12:08:56] [INFO] Request params: {
+  "id": "621177be5ef3c3d9d5091211"
+}
+[12:08:56] [INFO] Request body: {
+  "name": "Top 100",
+  "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+  "categories": [
+    "621077951de644a70d1a6bb4"
+  ],
+  "songs": [
+    "6211bafe9aa9113f688eb157"
+  ]
+}
+[12:08:56] [ERROR] ENOENT: no such file or directory, unlink '/home/hlm/app/musifyserver/public/pexels-photo-1021876-1645246038454-744224240.jpeg'
+[12:08:56] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": {
+    "_id": "621177be5ef3c3d9d5091211",
+    "name": "Top 100",
+    "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+    "songs": [
+      "6211bafe9aa9113f688eb157"
+    ],
+    "categories": [
+      "621077951de644a70d1a6bb4"
+    ],
+    "createdAt": "2022-02-19T23:05:34.814Z",
+    "updatedAt": "2022-02-20T05:08:56.567Z",
+    "__v": 3
+  }
+}
+[12:09:11] [INFO] Getting categories
+[12:09:11] [INFO] Request query: {}
+[12:09:11] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T05:08:56.580Z",
+      "__v": 6
+    }
+  ],
+  "total": 1
+}
+[12:09:12] [INFO] Getting albums
+[12:09:12] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[12:09:12] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T05:08:56.567Z",
+      "__v": 3
+    }
+  ],
+  "total": 1
+}
+[12:09:54] [INFO] Getting songs
+[12:09:54] [INFO] Request query: {
+  "albums": "621177be5ef3c3d9d5091211"
+}
+[12:09:54] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": "6211b88903c297293143ecc8",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T05:08:56.574Z",
+      "__v": 4
+    }
+  ],
+  "total": 1
+}
+[12:14:39] [INFO] Getting songs
+[12:14:39] [INFO] Request query: {
+  "albums": "621177be5ef3c3d9d5091211"
+}
+[12:14:39] [INFO] Getting categories
+[12:14:39] [INFO] Request query: {}
+[12:14:39] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": "6211b88903c297293143ecc8",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T05:08:56.574Z",
+      "__v": 4
+    }
+  ],
+  "total": 1
+}
+[12:14:39] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T05:08:56.580Z",
+      "__v": 6
+    }
+  ],
+  "total": 1
+}
+[12:14:39] [INFO] Getting albums
+[12:14:39] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[12:14:39] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T05:08:56.567Z",
+      "__v": 3
+    }
+  ],
+  "total": 1
+}
+[12:15:20] [INFO] Getting songs
+[12:15:20] [INFO] Request query: {
+  "albums": "621177be5ef3c3d9d5091211"
+}
+[12:15:20] [INFO] Getting categories
+[12:15:20] [INFO] Request query: {}
+[12:15:20] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T05:08:56.580Z",
+      "__v": 6
+    }
+  ],
+  "total": 1
+}
+[12:15:20] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": "6211b88903c297293143ecc8",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T05:08:56.574Z",
+      "__v": 4
+    }
+  ],
+  "total": 1
+}
+[12:15:20] [INFO] Getting albums
+[12:15:20] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[12:15:20] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T05:08:56.567Z",
+      "__v": 3
+    }
+  ],
+  "total": 1
+}
+[12:16:05] [INFO] Getting categories
+[12:16:05] [INFO] Request query: {}
+[12:16:05] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T05:08:56.580Z",
+      "__v": 6
+    }
+  ],
+  "total": 1
+}
+[12:16:05] [INFO] Getting albums
+[12:16:05] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[12:16:05] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T05:08:56.567Z",
+      "__v": 3
+    }
+  ],
+  "total": 1
+}
+[12:16:08] [INFO] Getting songs
+[12:16:08] [INFO] Request query: {
+  "albums": "621177be5ef3c3d9d5091211"
+}
+[12:16:08] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": "6211b88903c297293143ecc8",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T05:08:56.574Z",
+      "__v": 4
+    }
+  ],
+  "total": 1
+}
+[12:18:33] [INFO] Getting songs
+[12:18:33] [INFO] Request query: {
+  "albums": "621177be5ef3c3d9d5091211"
+}
+[12:18:33] [INFO] Getting categories
+[12:18:33] [INFO] Request query: {}
+[12:18:33] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": "6211b88903c297293143ecc8",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T05:08:56.574Z",
+      "__v": 4
+    }
+  ],
+  "total": 1
+}
+[12:18:33] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T05:08:56.580Z",
+      "__v": 6
+    }
+  ],
+  "total": 1
+}
+[12:18:34] [INFO] Getting albums
+[12:18:34] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[12:18:34] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T05:08:56.567Z",
+      "__v": 3
+    }
+  ],
+  "total": 1
+}
+[12:19:34] [INFO] Getting songs
+[12:19:34] [INFO] Request query: {
+  "albums": "621177be5ef3c3d9d5091211"
+}
+[12:19:34] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": "6211b88903c297293143ecc8",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T05:08:56.574Z",
+      "__v": 4
+    }
+  ],
+  "total": 1
+}
+[12:19:34] [INFO] Getting categories
+[12:19:34] [INFO] Request query: {}
+[12:19:34] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T05:08:56.580Z",
+      "__v": 6
+    }
+  ],
+  "total": 1
+}
+[12:19:34] [INFO] Getting albums
+[12:19:35] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[12:19:35] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T05:08:56.567Z",
+      "__v": 3
+    }
+  ],
+  "total": 1
+}
+[12:20:22] [INFO] Getting songs
+[12:20:22] [INFO] Request query: {
+  "albums": "621177be5ef3c3d9d5091211"
+}
+[12:20:22] [INFO] Getting categories
+[12:20:22] [INFO] Request query: {}
+[12:20:22] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": "6211b88903c297293143ecc8",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T05:08:56.574Z",
+      "__v": 4
+    }
+  ],
+  "total": 1
+}
+[12:20:22] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T05:08:56.580Z",
+      "__v": 6
+    }
+  ],
+  "total": 1
+}
+[12:20:22] [INFO] Getting albums
+[12:20:22] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[12:20:22] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T05:08:56.567Z",
+      "__v": 3
+    }
+  ],
+  "total": 1
+}
+[12:22:15] [INFO] Getting songs
+[12:22:15] [INFO] Request query: {
+  "albums": "621177be5ef3c3d9d5091211"
+}
+[12:22:15] [INFO] Getting categories
+[12:22:15] [INFO] Request query: {}
+[12:22:15] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": "6211b88903c297293143ecc8",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T05:08:56.574Z",
+      "__v": 4
+    }
+  ],
+  "total": 1
+}
+[12:22:15] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T05:08:56.580Z",
+      "__v": 6
+    }
+  ],
+  "total": 1
+}
+[12:22:15] [INFO] Getting albums
+[12:22:15] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[12:22:15] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T05:08:56.567Z",
+      "__v": 3
+    }
+  ],
+  "total": 1
+}
+[12:22:33] [INFO] Getting songs
+[12:22:33] [INFO] Request query: {
+  "albums": "621177be5ef3c3d9d5091211"
+}
+[12:22:33] [INFO] Getting categories
+[12:22:33] [INFO] Request query: {}
+[12:22:33] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": "6211b88903c297293143ecc8",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T05:08:56.574Z",
+      "__v": 4
+    }
+  ],
+  "total": 1
+}
+[12:22:33] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T05:08:56.580Z",
+      "__v": 6
+    }
+  ],
+  "total": 1
+}
+[12:22:33] [INFO] Getting albums
+[12:22:33] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[12:22:33] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T05:08:56.567Z",
+      "__v": 3
+    }
+  ],
+  "total": 1
+}
+[12:23:15] [INFO] Getting categories
+[12:23:15] [INFO] Request query: {}
+[12:23:15] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T05:08:56.580Z",
+      "__v": 6
+    }
+  ],
+  "total": 1
+}
+[12:23:15] [INFO] Getting albums
+[12:23:15] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[12:23:15] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T05:08:56.567Z",
+      "__v": 3
+    }
+  ],
+  "total": 1
+}
+[12:23:19] [INFO] Getting songs
+[12:23:19] [INFO] Request query: {
+  "albums": "621177be5ef3c3d9d5091211"
+}
+[12:23:19] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": "6211b88903c297293143ecc8",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T05:08:56.574Z",
+      "__v": 4
+    }
+  ],
+  "total": 1
+}
+[12:30:24] [INFO] Getting categories
+[12:30:24] [INFO] Request query: {}
+[12:30:24] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T05:08:56.580Z",
+      "__v": 6
+    }
+  ],
+  "total": 1
+}
+[12:30:24] [INFO] Getting albums
+[12:30:24] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[12:30:24] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T05:08:56.567Z",
+      "__v": 3
+    }
+  ],
+  "total": 1
+}
+[12:30:27] [INFO] Getting songs
+[12:30:27] [INFO] Request query: {
+  "albums": "621177be5ef3c3d9d5091211"
+}
+[12:30:27] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": "6211b88903c297293143ecc8",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T05:08:56.574Z",
+      "__v": 4
+    }
+  ],
+  "total": 1
+}
+[12:32:17] [INFO] Getting categories
+[12:32:17] [INFO] Request query: {}
+[12:32:17] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T05:08:56.580Z",
+      "__v": 6
+    }
+  ],
+  "total": 1
+}
+[12:32:18] [INFO] Getting albums
+[12:32:18] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[12:32:18] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T05:08:56.567Z",
+      "__v": 3
+    }
+  ],
+  "total": 1
+}
+[12:32:21] [INFO] Getting songs
+[12:32:21] [INFO] Request query: {
+  "albums": "621177be5ef3c3d9d5091211"
+}
+[12:32:21] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": "6211b88903c297293143ecc8",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T05:08:56.574Z",
+      "__v": 4
+    }
+  ],
+  "total": 1
+}
+[12:33:15] [INFO] Getting categories
+[12:33:15] [INFO] Request query: {}
+[12:33:15] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T05:08:56.580Z",
+      "__v": 6
+    }
+  ],
+  "total": 1
+}
+[12:33:15] [INFO] Getting albums
+[12:33:15] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[12:33:15] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T05:08:56.567Z",
+      "__v": 3
+    }
+  ],
+  "total": 1
+}
+[12:33:19] [INFO] Getting songs
+[12:33:19] [INFO] Request query: {
+  "albums": "621177be5ef3c3d9d5091211"
+}
+[12:33:19] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": "6211b88903c297293143ecc8",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T05:08:56.574Z",
+      "__v": 4
+    }
+  ],
+  "total": 1
+}
+[12:33:31] [INFO] Getting categories
+[12:33:31] [INFO] Request query: {}
+[12:33:31] [INFO] Getting songs
+[12:33:31] [INFO] Request query: {
+  "albums": "621177be5ef3c3d9d5091211"
+}
+[12:33:31] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T05:08:56.580Z",
+      "__v": 6
+    }
+  ],
+  "total": 1
+}
+[12:33:31] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": "6211b88903c297293143ecc8",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T05:08:56.574Z",
+      "__v": 4
+    }
+  ],
+  "total": 1
+}
+[12:33:31] [INFO] Getting albums
+[12:33:31] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[12:33:31] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T05:08:56.567Z",
+      "__v": 3
+    }
+  ],
+  "total": 1
+}
+[12:33:36] [INFO] Getting songs
+[12:33:36] [INFO] Request query: {
+  "albums": "621177be5ef3c3d9d5091211"
+}
+[12:33:36] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": "6211b88903c297293143ecc8",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T05:08:56.574Z",
+      "__v": 4
+    }
+  ],
+  "total": 1
+}
+[12:33:36] [INFO] Getting categories
+[12:33:36] [INFO] Request query: {}
+[12:33:36] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T05:08:56.580Z",
+      "__v": 6
+    }
+  ],
+  "total": 1
+}
+[12:33:36] [INFO] Getting albums
+[12:33:36] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[12:33:36] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T05:08:56.567Z",
+      "__v": 3
+    }
+  ],
+  "total": 1
+}
+[12:33:44] [INFO] Getting songs
+[12:33:44] [INFO] Request query: {
+  "albums": "621177be5ef3c3d9d5091211"
+}
+[12:33:44] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": "6211b88903c297293143ecc8",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T05:08:56.574Z",
+      "__v": 4
+    }
+  ],
+  "total": 1
+}
+[12:33:44] [INFO] Getting categories
+[12:33:44] [INFO] Request query: {}
+[12:33:44] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T05:08:56.580Z",
+      "__v": 6
+    }
+  ],
+  "total": 1
+}
+[12:33:45] [INFO] Getting albums
+[12:33:45] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[12:33:45] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T05:08:56.567Z",
+      "__v": 3
+    }
+  ],
+  "total": 1
+}
+[12:33:56] [INFO] Getting songs
+[12:33:56] [INFO] Request query: {
+  "albums": "621177be5ef3c3d9d5091211"
+}
+[12:33:56] [INFO] Getting categories
+[12:33:56] [INFO] Request query: {}
+[12:33:56] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": "6211b88903c297293143ecc8",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T05:08:56.574Z",
+      "__v": 4
+    }
+  ],
+  "total": 1
+}
+[12:33:56] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T05:08:56.580Z",
+      "__v": 6
+    }
+  ],
+  "total": 1
+}
+[12:33:56] [INFO] Getting albums
+[12:33:56] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[12:33:56] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T05:08:56.567Z",
+      "__v": 3
+    }
+  ],
+  "total": 1
+}
+[12:34:09] [INFO] Getting categories
+[12:34:09] [INFO] Request query: {}
+[12:34:09] [INFO] Getting songs
+[12:34:09] [INFO] Request query: {
+  "albums": "621177be5ef3c3d9d5091211"
+}
+[12:34:09] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T05:08:56.580Z",
+      "__v": 6
+    }
+  ],
+  "total": 1
+}
+[12:34:09] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": "6211b88903c297293143ecc8",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T05:08:56.574Z",
+      "__v": 4
+    }
+  ],
+  "total": 1
+}
+[12:34:10] [INFO] Getting albums
+[12:34:10] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[12:34:10] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T05:08:56.567Z",
+      "__v": 3
+    }
+  ],
+  "total": 1
+}
+[16:18:44] [INFO] Server listening on port 3002
+[16:22:03] [INFO] Getting categories
+[16:22:03] [INFO] Request query: {}
+[16:22:03] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T05:08:56.580Z",
+      "__v": 6
+    }
+  ],
+  "total": 1
+}
+[16:22:03] [INFO] Getting albums
+[16:22:03] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[16:22:03] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T05:08:56.567Z",
+      "__v": 3
+    }
+  ],
+  "total": 1
+}
+[16:22:13] [INFO] Getting songs
+[16:22:13] [INFO] Request query: {
+  "albums": "621177be5ef3c3d9d5091211"
+}
+[16:22:14] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": "6211b88903c297293143ecc8",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T05:08:56.574Z",
+      "__v": 4
+    }
+  ],
+  "total": 1
+}
+[16:24:44] [INFO] Server listening on port 3002
+[16:24:48] [INFO] Server listening on port 3002
+[16:25:16] [INFO] Server listening on port 3002
+[16:25:20] [INFO] Server listening on port 3002
+[16:25:31] [INFO] Server listening on port 3002
+[16:25:32] [INFO] Server listening on port 3002
+[16:25:37] [INFO] Server listening on port 3002
+[16:25:51] [INFO] Server listening on port 3002
+[16:25:57] [INFO] Server listening on port 3002
+[16:26:03] [INFO] Server listening on port 3002
+[16:26:09] [INFO] Server listening on port 3002
+[16:26:12] [INFO] Server listening on port 3002
+[16:26:21] [INFO] Getting categories
+[16:26:21] [INFO] Request query: {}
+[16:26:21] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T05:08:56.580Z",
+      "__v": 6
+    }
+  ],
+  "total": 1
+}
+[16:26:21] [INFO] Getting albums
+[16:26:21] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[16:26:21] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T05:08:56.567Z",
+      "__v": 3
+    }
+  ],
+  "total": 1
+}
+[16:26:25] [INFO] Getting songs
+[16:26:25] [INFO] Request query: {
+  "albums": "621177be5ef3c3d9d5091211"
+}
+[16:26:25] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": {
+        "_id": "6211b88903c297293143ecc8",
+        "profile": "/musifyserver/dua-lipa-1645328468294-682032201.jpeg",
+        "name": "Dua Lipa",
+        "songs": [
+          "6211bafe9aa9113f688eb157"
+        ],
+        "createdAt": "2022-02-20T03:42:01.896Z",
+        "updatedAt": "2022-02-20T03:52:30.737Z",
+        "__v": 1
+      },
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T05:08:56.574Z",
+      "__v": 4
+    }
+  ],
+  "total": 1
+}
+[16:26:38] [INFO] Getting songs
+[16:26:38] [INFO] Request query: {}
+[16:26:38] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": {
+        "_id": "6211b88903c297293143ecc8",
+        "profile": "/musifyserver/dua-lipa-1645328468294-682032201.jpeg",
+        "name": "Dua Lipa",
+        "songs": [
+          "6211bafe9aa9113f688eb157"
+        ],
+        "createdAt": "2022-02-20T03:42:01.896Z",
+        "updatedAt": "2022-02-20T03:52:30.737Z",
+        "__v": 1
+      },
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T05:08:56.574Z",
+      "__v": 4
+    }
+  ],
+  "total": 1
+}
+[16:27:45] [INFO] Server listening on port 3002
+[16:28:11] [INFO] Server listening on port 3002
+[16:28:19] [INFO] Server listening on port 3002
+[16:28:21] [INFO] Server listening on port 3002
+[16:28:26] [INFO] Server listening on port 3002
+[16:28:28] [INFO] Server listening on port 3002
+[16:28:34] [INFO] Server listening on port 3002
+[16:28:36] [INFO] Server listening on port 3002
+[16:28:42] [INFO] Server listening on port 3002
+[16:28:49] [INFO] Server listening on port 3002
+[16:28:53] [INFO] Server listening on port 3002
+[16:29:08] [INFO] Server listening on port 3002
+[16:30:42] [INFO] Updating song
+[16:30:42] [INFO] Request params: {
+  "id": "6211bafe9aa9113f688eb157"
+}
+[16:30:42] [INFO] Request body: {
+  "name": "Levitating",
+  "description": "",
+  "url": "/storage/musics/Levitating.mp3",
+  "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+  "artist": "6211b88903c297293143ecc8",
+  "albums": [
+    "621177be5ef3c3d9d5091211"
+  ],
+  "lyrics": [],
+  "categories": [
+    "621077951de644a70d1a6bb4"
+  ]
+}
+[16:30:42] [ERROR] ENOENT: no such file or directory, open '/storage/musics/Levitating.mp3'
+[16:31:23] [INFO] Server listening on port 3002
+[16:31:25] [INFO] Updating song
+[16:31:25] [INFO] Request params: {
+  "id": "6211bafe9aa9113f688eb157"
+}
+[16:31:25] [INFO] Request body: {
+  "name": "Levitating",
+  "description": "",
+  "url": "/storage/musics/Levitating.mp3",
+  "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+  "artist": "6211b88903c297293143ecc8",
+  "albums": [
+    "621177be5ef3c3d9d5091211"
+  ],
+  "lyrics": [],
+  "categories": [
+    "621077951de644a70d1a6bb4"
+  ]
+}
+[16:31:26] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": {
+    "_id": "6211bafe9aa9113f688eb157",
+    "name": "Levitating",
+    "description": "",
+    "url": "/storage/musics/Levitating.mp3",
+    "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+    "duration": 230191,
+    "artistid": "6211b88903c297293143ecc8",
+    "albums": [
+      "621177be5ef3c3d9d5091211"
+    ],
+    "lyrics": [],
+    "categories": [
+      "621077951de644a70d1a6bb4"
+    ],
+    "createdAt": "2022-02-20T03:52:30.723Z",
+    "updatedAt": "2022-02-20T09:31:26.097Z",
+    "__v": 4,
+    "artist": "6211b88903c297293143ecc8"
+  }
+}
+[16:31:52] [INFO] Getting songs
+[16:31:52] [INFO] Request query: {}
+[16:31:52] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": "6211b88903c297293143ecc8",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T09:31:26.097Z",
+      "__v": 4,
+      "artist": {
+        "_id": "6211b88903c297293143ecc8",
+        "profile": "/musifyserver/dua-lipa-1645328468294-682032201.jpeg",
+        "name": "Dua Lipa",
+        "songs": [
+          "6211bafe9aa9113f688eb157"
+        ],
+        "createdAt": "2022-02-20T03:42:01.896Z",
+        "updatedAt": "2022-02-20T09:31:26.103Z",
+        "__v": 3
+      }
+    }
+  ],
+  "total": 1
+}
+[16:33:32] [INFO] Getting categories
+[16:33:32] [INFO] Request query: {}
+[16:33:32] [INFO] Getting songs
+[16:33:32] [INFO] Request query: {
+  "albums": "621177be5ef3c3d9d5091211"
+}
+[16:33:32] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T09:31:26.114Z",
+      "__v": 8
+    }
+  ],
+  "total": 1
+}
+[16:33:32] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": "6211b88903c297293143ecc8",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T09:31:26.097Z",
+      "__v": 4,
+      "artist": {
+        "_id": "6211b88903c297293143ecc8",
+        "profile": "/musifyserver/dua-lipa-1645328468294-682032201.jpeg",
+        "name": "Dua Lipa",
+        "songs": [
+          "6211bafe9aa9113f688eb157"
+        ],
+        "createdAt": "2022-02-20T03:42:01.896Z",
+        "updatedAt": "2022-02-20T09:31:26.103Z",
+        "__v": 3
+      }
+    }
+  ],
+  "total": 1
+}
+[16:33:32] [INFO] Getting albums
+[16:33:32] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[16:33:32] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T09:31:26.109Z",
+      "__v": 5
+    }
+  ],
+  "total": 1
+}
+[16:34:10] [INFO] Getting categories
+[16:34:10] [INFO] Request query: {}
+[16:34:10] [INFO] Getting songs
+[16:34:10] [INFO] Request query: {
+  "albums": "621177be5ef3c3d9d5091211"
+}
+[16:34:10] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T09:31:26.114Z",
+      "__v": 8
+    }
+  ],
+  "total": 1
+}
+[16:34:10] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": "6211b88903c297293143ecc8",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T09:31:26.097Z",
+      "__v": 4,
+      "artist": {
+        "_id": "6211b88903c297293143ecc8",
+        "profile": "/musifyserver/dua-lipa-1645328468294-682032201.jpeg",
+        "name": "Dua Lipa",
+        "songs": [
+          "6211bafe9aa9113f688eb157"
+        ],
+        "createdAt": "2022-02-20T03:42:01.896Z",
+        "updatedAt": "2022-02-20T09:31:26.103Z",
+        "__v": 3
+      }
+    }
+  ],
+  "total": 1
+}
+[16:34:11] [INFO] Getting albums
+[16:34:11] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[16:34:11] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T09:31:26.109Z",
+      "__v": 5
+    }
+  ],
+  "total": 1
+}
+[16:34:50] [INFO] Getting categories
+[16:34:50] [INFO] Request query: {}
+[16:34:50] [INFO] Getting songs
+[16:34:50] [INFO] Request query: {
+  "albums": "621177be5ef3c3d9d5091211"
+}
+[16:34:50] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T09:31:26.114Z",
+      "__v": 8
+    }
+  ],
+  "total": 1
+}
+[16:34:50] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": "6211b88903c297293143ecc8",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T09:31:26.097Z",
+      "__v": 4,
+      "artist": {
+        "_id": "6211b88903c297293143ecc8",
+        "profile": "/musifyserver/dua-lipa-1645328468294-682032201.jpeg",
+        "name": "Dua Lipa",
+        "songs": [
+          "6211bafe9aa9113f688eb157"
+        ],
+        "createdAt": "2022-02-20T03:42:01.896Z",
+        "updatedAt": "2022-02-20T09:31:26.103Z",
+        "__v": 3
+      }
+    }
+  ],
+  "total": 1
+}
+[16:34:50] [INFO] Getting albums
+[16:34:50] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[16:34:50] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T09:31:26.109Z",
+      "__v": 5
+    }
+  ],
+  "total": 1
+}
+[16:35:00] [INFO] Getting songs
+[16:35:00] [INFO] Request query: {
+  "albums": "621177be5ef3c3d9d5091211"
+}
+[16:35:00] [INFO] Getting categories
+[16:35:00] [INFO] Request query: {}
+[16:35:00] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": "6211b88903c297293143ecc8",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T09:31:26.097Z",
+      "__v": 4,
+      "artist": {
+        "_id": "6211b88903c297293143ecc8",
+        "profile": "/musifyserver/dua-lipa-1645328468294-682032201.jpeg",
+        "name": "Dua Lipa",
+        "songs": [
+          "6211bafe9aa9113f688eb157"
+        ],
+        "createdAt": "2022-02-20T03:42:01.896Z",
+        "updatedAt": "2022-02-20T09:31:26.103Z",
+        "__v": 3
+      }
+    }
+  ],
+  "total": 1
+}
+[16:35:00] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T09:31:26.114Z",
+      "__v": 8
+    }
+  ],
+  "total": 1
+}
+[16:35:01] [INFO] Getting albums
+[16:35:01] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[16:35:01] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T09:31:26.109Z",
+      "__v": 5
+    }
+  ],
+  "total": 1
+}
+[16:35:30] [INFO] Getting songs
+[16:35:30] [INFO] Request query: {
+  "albums": "621177be5ef3c3d9d5091211"
+}
+[16:35:30] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": "6211b88903c297293143ecc8",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T09:31:26.097Z",
+      "__v": 4,
+      "artist": {
+        "_id": "6211b88903c297293143ecc8",
+        "profile": "/musifyserver/dua-lipa-1645328468294-682032201.jpeg",
+        "name": "Dua Lipa",
+        "songs": [
+          "6211bafe9aa9113f688eb157"
+        ],
+        "createdAt": "2022-02-20T03:42:01.896Z",
+        "updatedAt": "2022-02-20T09:31:26.103Z",
+        "__v": 3
+      }
+    }
+  ],
+  "total": 1
+}
+[16:39:16] [INFO] Getting categories
+[16:39:16] [INFO] Request query: {}
+[16:39:16] [INFO] Getting songs
+[16:39:16] [INFO] Request query: {
+  "albums": "621177be5ef3c3d9d5091211"
+}
+[16:39:16] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T09:31:26.114Z",
+      "__v": 8
+    }
+  ],
+  "total": 1
+}
+[16:39:16] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": "6211b88903c297293143ecc8",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T09:31:26.097Z",
+      "__v": 4,
+      "artist": {
+        "_id": "6211b88903c297293143ecc8",
+        "profile": "/musifyserver/dua-lipa-1645328468294-682032201.jpeg",
+        "name": "Dua Lipa",
+        "songs": [
+          "6211bafe9aa9113f688eb157"
+        ],
+        "createdAt": "2022-02-20T03:42:01.896Z",
+        "updatedAt": "2022-02-20T09:31:26.103Z",
+        "__v": 3
+      }
+    }
+  ],
+  "total": 1
+}
+[16:39:16] [INFO] Getting albums
+[16:39:16] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[16:39:16] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T09:31:26.109Z",
+      "__v": 5
+    }
+  ],
+  "total": 1
+}
+[16:39:51] [INFO] Getting songs
+[16:39:51] [INFO] Request query: {
+  "albums": "621177be5ef3c3d9d5091211"
+}
+[16:39:51] [INFO] Getting categories
+[16:39:51] [INFO] Request query: {}
+[16:39:51] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T09:31:26.114Z",
+      "__v": 8
+    }
+  ],
+  "total": 1
+}
+[16:39:51] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": "6211b88903c297293143ecc8",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T09:31:26.097Z",
+      "__v": 4,
+      "artist": {
+        "_id": "6211b88903c297293143ecc8",
+        "profile": "/musifyserver/dua-lipa-1645328468294-682032201.jpeg",
+        "name": "Dua Lipa",
+        "songs": [
+          "6211bafe9aa9113f688eb157"
+        ],
+        "createdAt": "2022-02-20T03:42:01.896Z",
+        "updatedAt": "2022-02-20T09:31:26.103Z",
+        "__v": 3
+      }
+    }
+  ],
+  "total": 1
+}
+[16:39:51] [INFO] Getting albums
+[16:39:51] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[16:39:51] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T09:31:26.109Z",
+      "__v": 5
+    }
+  ],
+  "total": 1
+}
+[16:40:09] [INFO] Getting songs
+[16:40:09] [INFO] Request query: {
+  "albums": "621177be5ef3c3d9d5091211"
+}
+[16:40:09] [INFO] Getting categories
+[16:40:09] [INFO] Request query: {}
+[16:40:09] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T09:31:26.114Z",
+      "__v": 8
+    }
+  ],
+  "total": 1
+}
+[16:40:09] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": "6211b88903c297293143ecc8",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T09:31:26.097Z",
+      "__v": 4,
+      "artist": {
+        "_id": "6211b88903c297293143ecc8",
+        "profile": "/musifyserver/dua-lipa-1645328468294-682032201.jpeg",
+        "name": "Dua Lipa",
+        "songs": [
+          "6211bafe9aa9113f688eb157"
+        ],
+        "createdAt": "2022-02-20T03:42:01.896Z",
+        "updatedAt": "2022-02-20T09:31:26.103Z",
+        "__v": 3
+      }
+    }
+  ],
+  "total": 1
+}
+[16:40:09] [INFO] Getting albums
+[16:40:09] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[16:40:09] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T09:31:26.109Z",
+      "__v": 5
+    }
+  ],
+  "total": 1
+}
+[16:54:18] [INFO] Getting categories
+[16:54:18] [INFO] Request query: {}
+[16:54:18] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T09:31:26.114Z",
+      "__v": 8
+    }
+  ],
+  "total": 1
+}
+[16:54:18] [INFO] Getting albums
+[16:54:18] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[16:54:18] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T09:31:26.109Z",
+      "__v": 5
+    }
+  ],
+  "total": 1
+}
+[16:55:00] [INFO] Getting songs
+[16:55:00] [INFO] Request query: {
+  "albums": "621177be5ef3c3d9d5091211"
+}
+[16:55:00] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": "6211b88903c297293143ecc8",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T09:31:26.097Z",
+      "__v": 4,
+      "artist": {
+        "_id": "6211b88903c297293143ecc8",
+        "profile": "/musifyserver/dua-lipa-1645328468294-682032201.jpeg",
+        "name": "Dua Lipa",
+        "songs": [
+          "6211bafe9aa9113f688eb157"
+        ],
+        "createdAt": "2022-02-20T03:42:01.896Z",
+        "updatedAt": "2022-02-20T09:31:26.103Z",
+        "__v": 3
+      }
+    }
+  ],
+  "total": 1
+}
+[16:55:54] [INFO] Server listening on port 3002
+[16:56:02] [INFO] Getting categories
+[16:56:02] [INFO] Request query: {}
+[16:56:02] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T09:31:26.114Z",
+      "__v": 8
+    }
+  ],
+  "total": 1
+}
+[16:56:02] [INFO] Getting albums
+[16:56:02] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[16:56:02] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T09:31:26.109Z",
+      "__v": 5
+    }
+  ],
+  "total": 1
+}
+[16:56:11] [INFO] Getting songs
+[16:56:11] [INFO] Request query: {
+  "albums": "621177be5ef3c3d9d5091211"
+}
+[16:56:11] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": "6211b88903c297293143ecc8",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T09:31:26.097Z",
+      "__v": 4,
+      "artist": {
+        "_id": "6211b88903c297293143ecc8",
+        "profile": "/musifyserver/dua-lipa-1645328468294-682032201.jpeg",
+        "name": "Dua Lipa",
+        "songs": [
+          "6211bafe9aa9113f688eb157"
+        ],
+        "createdAt": "2022-02-20T03:42:01.896Z",
+        "updatedAt": "2022-02-20T09:31:26.103Z",
+        "__v": 3
+      }
+    }
+  ],
+  "total": 1
+}
+[16:57:16] [INFO] Getting categories
+[16:57:16] [INFO] Request query: {}
+[16:57:16] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T09:31:26.114Z",
+      "__v": 8
+    }
+  ],
+  "total": 1
+}
+[16:57:16] [INFO] Getting albums
+[16:57:16] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[16:57:16] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T09:31:26.109Z",
+      "__v": 5
+    }
+  ],
+  "total": 1
+}
+[16:57:56] [INFO] Getting categories
+[16:57:56] [INFO] Request query: {}
+[16:57:56] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T09:31:26.114Z",
+      "__v": 8
+    }
+  ],
+  "total": 1
+}
+[16:57:56] [INFO] Getting albums
+[16:57:56] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[16:57:56] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T09:31:26.109Z",
+      "__v": 5
+    }
+  ],
+  "total": 1
+}
+[16:58:00] [INFO] Getting categories
+[16:58:00] [INFO] Request query: {}
+[16:58:00] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T09:31:26.114Z",
+      "__v": 8
+    }
+  ],
+  "total": 1
+}
+[16:58:00] [INFO] Getting albums
+[16:58:00] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[16:58:00] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T09:31:26.109Z",
+      "__v": 5
+    }
+  ],
+  "total": 1
+}
+[16:58:03] [INFO] Getting songs
+[16:58:03] [INFO] Request query: {
+  "albums": "621177be5ef3c3d9d5091211"
+}
+[16:58:03] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": "6211b88903c297293143ecc8",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T09:31:26.097Z",
+      "__v": 4,
+      "artist": {
+        "_id": "6211b88903c297293143ecc8",
+        "profile": "/musifyserver/dua-lipa-1645328468294-682032201.jpeg",
+        "name": "Dua Lipa",
+        "songs": [
+          "6211bafe9aa9113f688eb157"
+        ],
+        "createdAt": "2022-02-20T03:42:01.896Z",
+        "updatedAt": "2022-02-20T09:31:26.103Z",
+        "__v": 3
+      }
+    }
+  ],
+  "total": 1
+}
+[16:58:25] [INFO] Getting songs
+[16:58:25] [INFO] Request query: {
+  "albums": "621177be5ef3c3d9d5091211"
+}
+[16:58:25] [INFO] Getting categories
+[16:58:25] [INFO] Request query: {}
+[16:58:25] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": "6211b88903c297293143ecc8",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T09:31:26.097Z",
+      "__v": 4,
+      "artist": {
+        "_id": "6211b88903c297293143ecc8",
+        "profile": "/musifyserver/dua-lipa-1645328468294-682032201.jpeg",
+        "name": "Dua Lipa",
+        "songs": [
+          "6211bafe9aa9113f688eb157"
+        ],
+        "createdAt": "2022-02-20T03:42:01.896Z",
+        "updatedAt": "2022-02-20T09:31:26.103Z",
+        "__v": 3
+      }
+    }
+  ],
+  "total": 1
+}
+[16:58:25] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T09:31:26.114Z",
+      "__v": 8
+    }
+  ],
+  "total": 1
+}
+[16:58:26] [INFO] Getting albums
+[16:58:26] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[16:58:26] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T09:31:26.109Z",
+      "__v": 5
+    }
+  ],
+  "total": 1
+}
+[16:58:28] [INFO] Getting categories
+[16:58:28] [INFO] Request query: {}
+[16:58:28] [INFO] Getting songs
+[16:58:28] [INFO] Request query: {
+  "albums": "621177be5ef3c3d9d5091211"
+}
+[16:58:28] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T09:31:26.114Z",
+      "__v": 8
+    }
+  ],
+  "total": 1
+}
+[16:58:28] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": "6211b88903c297293143ecc8",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T09:31:26.097Z",
+      "__v": 4,
+      "artist": {
+        "_id": "6211b88903c297293143ecc8",
+        "profile": "/musifyserver/dua-lipa-1645328468294-682032201.jpeg",
+        "name": "Dua Lipa",
+        "songs": [
+          "6211bafe9aa9113f688eb157"
+        ],
+        "createdAt": "2022-02-20T03:42:01.896Z",
+        "updatedAt": "2022-02-20T09:31:26.103Z",
+        "__v": 3
+      }
+    }
+  ],
+  "total": 1
+}
+[16:58:28] [INFO] Getting albums
+[16:58:28] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[16:58:28] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T09:31:26.109Z",
+      "__v": 5
+    }
+  ],
+  "total": 1
+}
+[16:59:05] [INFO] Getting categories
+[16:59:05] [INFO] Request query: {}
+[16:59:05] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T09:31:26.114Z",
+      "__v": 8
+    }
+  ],
+  "total": 1
+}
+[16:59:06] [INFO] Getting albums
+[16:59:06] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[16:59:06] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T09:31:26.109Z",
+      "__v": 5
+    }
+  ],
+  "total": 1
+}
+[16:59:11] [INFO] Getting songs
+[16:59:11] [INFO] Request query: {
+  "albums": "621177be5ef3c3d9d5091211"
+}
+[16:59:11] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": "6211b88903c297293143ecc8",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T09:31:26.097Z",
+      "__v": 4,
+      "artist": {
+        "_id": "6211b88903c297293143ecc8",
+        "profile": "/musifyserver/dua-lipa-1645328468294-682032201.jpeg",
+        "name": "Dua Lipa",
+        "songs": [
+          "6211bafe9aa9113f688eb157"
+        ],
+        "createdAt": "2022-02-20T03:42:01.896Z",
+        "updatedAt": "2022-02-20T09:31:26.103Z",
+        "__v": 3
+      }
+    }
+  ],
+  "total": 1
+}
+[17:00:25] [INFO] Getting songs
+[17:00:25] [INFO] Request query: {
+  "albums": "621177be5ef3c3d9d5091211"
+}
+[17:00:25] [INFO] Getting categories
+[17:00:25] [INFO] Request query: {}
+[17:00:25] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T09:31:26.114Z",
+      "__v": 8
+    }
+  ],
+  "total": 1
+}
+[17:00:25] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": "6211b88903c297293143ecc8",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T09:31:26.097Z",
+      "__v": 4,
+      "artist": {
+        "_id": "6211b88903c297293143ecc8",
+        "profile": "/musifyserver/dua-lipa-1645328468294-682032201.jpeg",
+        "name": "Dua Lipa",
+        "songs": [
+          "6211bafe9aa9113f688eb157"
+        ],
+        "createdAt": "2022-02-20T03:42:01.896Z",
+        "updatedAt": "2022-02-20T09:31:26.103Z",
+        "__v": 3
+      }
+    }
+  ],
+  "total": 1
+}
+[17:00:25] [INFO] Getting albums
+[17:00:25] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[17:00:25] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T09:31:26.109Z",
+      "__v": 5
+    }
+  ],
+  "total": 1
+}
+[17:00:34] [INFO] Getting categories
+[17:00:34] [INFO] Request query: {}
+[17:00:34] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T09:31:26.114Z",
+      "__v": 8
+    }
+  ],
+  "total": 1
+}
+[17:00:34] [INFO] Getting songs
+[17:00:34] [INFO] Request query: {
+  "albums": "621177be5ef3c3d9d5091211"
+}
+[17:00:34] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": "6211b88903c297293143ecc8",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T09:31:26.097Z",
+      "__v": 4,
+      "artist": {
+        "_id": "6211b88903c297293143ecc8",
+        "profile": "/musifyserver/dua-lipa-1645328468294-682032201.jpeg",
+        "name": "Dua Lipa",
+        "songs": [
+          "6211bafe9aa9113f688eb157"
+        ],
+        "createdAt": "2022-02-20T03:42:01.896Z",
+        "updatedAt": "2022-02-20T09:31:26.103Z",
+        "__v": 3
+      }
+    }
+  ],
+  "total": 1
+}
+[17:00:34] [INFO] Getting albums
+[17:00:34] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[17:00:34] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T09:31:26.109Z",
+      "__v": 5
+    }
+  ],
+  "total": 1
+}
+[17:03:07] [INFO] Getting categories
+[17:03:07] [INFO] Request query: {}
+[17:03:07] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T09:31:26.114Z",
+      "__v": 8
+    }
+  ],
+  "total": 1
+}
+[17:03:07] [INFO] Getting albums
+[17:03:07] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[17:03:07] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T09:31:26.109Z",
+      "__v": 5
+    }
+  ],
+  "total": 1
+}
+[17:03:14] [INFO] Getting songs
+[17:03:14] [INFO] Request query: {
+  "albums": "621177be5ef3c3d9d5091211"
+}
+[17:03:14] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": "6211b88903c297293143ecc8",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T09:31:26.097Z",
+      "__v": 4,
+      "artist": {
+        "_id": "6211b88903c297293143ecc8",
+        "profile": "/musifyserver/dua-lipa-1645328468294-682032201.jpeg",
+        "name": "Dua Lipa",
+        "songs": [
+          "6211bafe9aa9113f688eb157"
+        ],
+        "createdAt": "2022-02-20T03:42:01.896Z",
+        "updatedAt": "2022-02-20T09:31:26.103Z",
+        "__v": 3
+      }
+    }
+  ],
+  "total": 1
+}
+[17:04:28] [INFO] Getting songs
+[17:04:28] [INFO] Request query: {
+  "albums": "621177be5ef3c3d9d5091211"
+}
+[17:04:28] [INFO] Getting categories
+[17:04:28] [INFO] Request query: {}
+[17:04:28] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T09:31:26.114Z",
+      "__v": 8
+    }
+  ],
+  "total": 1
+}
+[17:04:28] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": "6211b88903c297293143ecc8",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T09:31:26.097Z",
+      "__v": 4,
+      "artist": {
+        "_id": "6211b88903c297293143ecc8",
+        "profile": "/musifyserver/dua-lipa-1645328468294-682032201.jpeg",
+        "name": "Dua Lipa",
+        "songs": [
+          "6211bafe9aa9113f688eb157"
+        ],
+        "createdAt": "2022-02-20T03:42:01.896Z",
+        "updatedAt": "2022-02-20T09:31:26.103Z",
+        "__v": 3
+      }
+    }
+  ],
+  "total": 1
+}
+[17:04:28] [INFO] Getting albums
+[17:04:28] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[17:04:28] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T09:31:26.109Z",
+      "__v": 5
+    }
+  ],
+  "total": 1
+}
+[17:04:52] [INFO] Getting categories
+[17:04:52] [INFO] Request query: {}
+[17:04:52] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T09:31:26.114Z",
+      "__v": 8
+    }
+  ],
+  "total": 1
+}
+[17:04:52] [INFO] Getting songs
+[17:04:52] [INFO] Request query: {
+  "albums": "621177be5ef3c3d9d5091211"
+}
+[17:04:52] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": "6211b88903c297293143ecc8",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T09:31:26.097Z",
+      "__v": 4,
+      "artist": {
+        "_id": "6211b88903c297293143ecc8",
+        "profile": "/musifyserver/dua-lipa-1645328468294-682032201.jpeg",
+        "name": "Dua Lipa",
+        "songs": [
+          "6211bafe9aa9113f688eb157"
+        ],
+        "createdAt": "2022-02-20T03:42:01.896Z",
+        "updatedAt": "2022-02-20T09:31:26.103Z",
+        "__v": 3
+      }
+    }
+  ],
+  "total": 1
+}
+[17:04:52] [INFO] Getting albums
+[17:04:52] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[17:04:52] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T09:31:26.109Z",
+      "__v": 5
+    }
+  ],
+  "total": 1
+}
+[17:05:30] [INFO] Getting songs
+[17:05:30] [INFO] Request query: {
+  "albums": "621177be5ef3c3d9d5091211"
+}
+[17:05:30] [INFO] Getting categories
+[17:05:30] [INFO] Request query: {}
+[17:05:30] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": "6211b88903c297293143ecc8",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T09:31:26.097Z",
+      "__v": 4,
+      "artist": {
+        "_id": "6211b88903c297293143ecc8",
+        "profile": "/musifyserver/dua-lipa-1645328468294-682032201.jpeg",
+        "name": "Dua Lipa",
+        "songs": [
+          "6211bafe9aa9113f688eb157"
+        ],
+        "createdAt": "2022-02-20T03:42:01.896Z",
+        "updatedAt": "2022-02-20T09:31:26.103Z",
+        "__v": 3
+      }
+    }
+  ],
+  "total": 1
+}
+[17:05:30] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T09:31:26.114Z",
+      "__v": 8
+    }
+  ],
+  "total": 1
+}
+[17:05:30] [INFO] Getting albums
+[17:05:30] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[17:05:30] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T09:31:26.109Z",
+      "__v": 5
+    }
+  ],
+  "total": 1
+}
+[17:06:21] [INFO] Getting songs
+[17:06:21] [INFO] Request query: {
+  "albums": "621177be5ef3c3d9d5091211"
+}
+[17:06:21] [INFO] Getting categories
+[17:06:21] [INFO] Request query: {}
+[17:06:21] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T09:31:26.114Z",
+      "__v": 8
+    }
+  ],
+  "total": 1
+}
+[17:06:21] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": "6211b88903c297293143ecc8",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T09:31:26.097Z",
+      "__v": 4,
+      "artist": {
+        "_id": "6211b88903c297293143ecc8",
+        "profile": "/musifyserver/dua-lipa-1645328468294-682032201.jpeg",
+        "name": "Dua Lipa",
+        "songs": [
+          "6211bafe9aa9113f688eb157"
+        ],
+        "createdAt": "2022-02-20T03:42:01.896Z",
+        "updatedAt": "2022-02-20T09:31:26.103Z",
+        "__v": 3
+      }
+    }
+  ],
+  "total": 1
+}
+[17:06:22] [INFO] Getting albums
+[17:06:22] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[17:06:22] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T09:31:26.109Z",
+      "__v": 5
+    }
+  ],
+  "total": 1
+}
+[17:06:34] [INFO] Getting categories
+[17:06:34] [INFO] Request query: {}
+[17:06:34] [INFO] Getting songs
+[17:06:34] [INFO] Request query: {
+  "albums": "621177be5ef3c3d9d5091211"
+}
+[17:06:34] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T09:31:26.114Z",
+      "__v": 8
+    }
+  ],
+  "total": 1
+}
+[17:06:34] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": "6211b88903c297293143ecc8",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T09:31:26.097Z",
+      "__v": 4,
+      "artist": {
+        "_id": "6211b88903c297293143ecc8",
+        "profile": "/musifyserver/dua-lipa-1645328468294-682032201.jpeg",
+        "name": "Dua Lipa",
+        "songs": [
+          "6211bafe9aa9113f688eb157"
+        ],
+        "createdAt": "2022-02-20T03:42:01.896Z",
+        "updatedAt": "2022-02-20T09:31:26.103Z",
+        "__v": 3
+      }
+    }
+  ],
+  "total": 1
+}
+[17:06:35] [INFO] Getting albums
+[17:06:35] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[17:06:35] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T09:31:26.109Z",
+      "__v": 5
+    }
+  ],
+  "total": 1
+}
+[17:07:11] [INFO] Getting categories
+[17:07:11] [INFO] Request query: {}
+[17:07:11] [INFO] Getting songs
+[17:07:11] [INFO] Request query: {
+  "albums": "621177be5ef3c3d9d5091211"
+}
+[17:07:11] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T09:31:26.114Z",
+      "__v": 8
+    }
+  ],
+  "total": 1
+}
+[17:07:11] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": "6211b88903c297293143ecc8",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T09:31:26.097Z",
+      "__v": 4,
+      "artist": {
+        "_id": "6211b88903c297293143ecc8",
+        "profile": "/musifyserver/dua-lipa-1645328468294-682032201.jpeg",
+        "name": "Dua Lipa",
+        "songs": [
+          "6211bafe9aa9113f688eb157"
+        ],
+        "createdAt": "2022-02-20T03:42:01.896Z",
+        "updatedAt": "2022-02-20T09:31:26.103Z",
+        "__v": 3
+      }
+    }
+  ],
+  "total": 1
+}
+[17:07:11] [INFO] Getting albums
+[17:07:11] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[17:07:11] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T09:31:26.109Z",
+      "__v": 5
+    }
+  ],
+  "total": 1
+}
+[17:07:18] [INFO] Getting categories
+[17:07:18] [INFO] Request query: {}
+[17:07:18] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T09:31:26.114Z",
+      "__v": 8
+    }
+  ],
+  "total": 1
+}
+[17:07:18] [INFO] Getting songs
+[17:07:18] [INFO] Request query: {
+  "albums": "621177be5ef3c3d9d5091211"
+}
+[17:07:18] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": "6211b88903c297293143ecc8",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T09:31:26.097Z",
+      "__v": 4,
+      "artist": {
+        "_id": "6211b88903c297293143ecc8",
+        "profile": "/musifyserver/dua-lipa-1645328468294-682032201.jpeg",
+        "name": "Dua Lipa",
+        "songs": [
+          "6211bafe9aa9113f688eb157"
+        ],
+        "createdAt": "2022-02-20T03:42:01.896Z",
+        "updatedAt": "2022-02-20T09:31:26.103Z",
+        "__v": 3
+      }
+    }
+  ],
+  "total": 1
+}
+[17:07:18] [INFO] Getting albums
+[17:07:18] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[17:07:18] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T09:31:26.109Z",
+      "__v": 5
+    }
+  ],
+  "total": 1
+}
+[17:08:18] [INFO] Getting categories
+[17:08:18] [INFO] Request query: {}
+[17:08:18] [INFO] Getting songs
+[17:08:18] [INFO] Request query: {
+  "albums": "621177be5ef3c3d9d5091211"
+}
+[17:08:18] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T09:31:26.114Z",
+      "__v": 8
+    }
+  ],
+  "total": 1
+}
+[17:08:18] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": "6211b88903c297293143ecc8",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T09:31:26.097Z",
+      "__v": 4,
+      "artist": {
+        "_id": "6211b88903c297293143ecc8",
+        "profile": "/musifyserver/dua-lipa-1645328468294-682032201.jpeg",
+        "name": "Dua Lipa",
+        "songs": [
+          "6211bafe9aa9113f688eb157"
+        ],
+        "createdAt": "2022-02-20T03:42:01.896Z",
+        "updatedAt": "2022-02-20T09:31:26.103Z",
+        "__v": 3
+      }
+    }
+  ],
+  "total": 1
+}
+[17:08:18] [INFO] Getting albums
+[17:08:18] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[17:08:18] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T09:31:26.109Z",
+      "__v": 5
+    }
+  ],
+  "total": 1
+}
+[17:08:26] [INFO] Getting categories
+[17:08:26] [INFO] Request query: {}
+[17:08:26] [INFO] Getting songs
+[17:08:26] [INFO] Request query: {
+  "albums": "621177be5ef3c3d9d5091211"
+}
+[17:08:26] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T09:31:26.114Z",
+      "__v": 8
+    }
+  ],
+  "total": 1
+}
+[17:08:26] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": "6211b88903c297293143ecc8",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T09:31:26.097Z",
+      "__v": 4,
+      "artist": {
+        "_id": "6211b88903c297293143ecc8",
+        "profile": "/musifyserver/dua-lipa-1645328468294-682032201.jpeg",
+        "name": "Dua Lipa",
+        "songs": [
+          "6211bafe9aa9113f688eb157"
+        ],
+        "createdAt": "2022-02-20T03:42:01.896Z",
+        "updatedAt": "2022-02-20T09:31:26.103Z",
+        "__v": 3
+      }
+    }
+  ],
+  "total": 1
+}
+[17:08:26] [INFO] Getting albums
+[17:08:26] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[17:08:26] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T09:31:26.109Z",
+      "__v": 5
+    }
+  ],
+  "total": 1
+}
+[17:08:30] [INFO] Getting categories
+[17:08:30] [INFO] Request query: {}
+[17:08:30] [INFO] Getting songs
+[17:08:30] [INFO] Request query: {
+  "albums": "621177be5ef3c3d9d5091211"
+}
+[17:08:30] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T09:31:26.114Z",
+      "__v": 8
+    }
+  ],
+  "total": 1
+}
+[17:08:30] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": "6211b88903c297293143ecc8",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T09:31:26.097Z",
+      "__v": 4,
+      "artist": {
+        "_id": "6211b88903c297293143ecc8",
+        "profile": "/musifyserver/dua-lipa-1645328468294-682032201.jpeg",
+        "name": "Dua Lipa",
+        "songs": [
+          "6211bafe9aa9113f688eb157"
+        ],
+        "createdAt": "2022-02-20T03:42:01.896Z",
+        "updatedAt": "2022-02-20T09:31:26.103Z",
+        "__v": 3
+      }
+    }
+  ],
+  "total": 1
+}
+[17:08:31] [INFO] Getting albums
+[17:08:31] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[17:08:31] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T09:31:26.109Z",
+      "__v": 5
+    }
+  ],
+  "total": 1
+}
+[17:08:41] [INFO] Getting categories
+[17:08:41] [INFO] Request query: {}
+[17:08:41] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T09:31:26.114Z",
+      "__v": 8
+    }
+  ],
+  "total": 1
+}
+[17:08:41] [INFO] Getting categories
+[17:08:41] [INFO] Request query: {}
+[17:08:41] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T09:31:26.114Z",
+      "__v": 8
+    }
+  ],
+  "total": 1
+}
+[17:08:42] [INFO] Getting albums
+[17:08:42] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[17:08:42] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T09:31:26.109Z",
+      "__v": 5
+    }
+  ],
+  "total": 1
+}
+[17:08:42] [INFO] Getting albums
+[17:08:42] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[17:08:42] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T09:31:26.109Z",
+      "__v": 5
+    }
+  ],
+  "total": 1
+}
+[17:08:46] [INFO] Getting songs
+[17:08:46] [INFO] Request query: {
+  "albums": "621177be5ef3c3d9d5091211"
+}
+[17:08:46] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": "6211b88903c297293143ecc8",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T09:31:26.097Z",
+      "__v": 4,
+      "artist": {
+        "_id": "6211b88903c297293143ecc8",
+        "profile": "/musifyserver/dua-lipa-1645328468294-682032201.jpeg",
+        "name": "Dua Lipa",
+        "songs": [
+          "6211bafe9aa9113f688eb157"
+        ],
+        "createdAt": "2022-02-20T03:42:01.896Z",
+        "updatedAt": "2022-02-20T09:31:26.103Z",
+        "__v": 3
+      }
+    }
+  ],
+  "total": 1
+}
+[17:20:01] [INFO] Getting categories
+[17:20:01] [INFO] Request query: {}
+[17:20:01] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T09:31:26.114Z",
+      "__v": 8
+    }
+  ],
+  "total": 1
+}
+[17:20:01] [INFO] Getting albums
+[17:20:01] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[17:20:01] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T09:31:26.109Z",
+      "__v": 5
+    }
+  ],
+  "total": 1
+}
+[17:20:05] [INFO] Getting songs
+[17:20:05] [INFO] Request query: {
+  "albums": "621177be5ef3c3d9d5091211"
+}
+[17:20:05] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": "6211b88903c297293143ecc8",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T09:31:26.097Z",
+      "__v": 4,
+      "artist": {
+        "_id": "6211b88903c297293143ecc8",
+        "profile": "/musifyserver/dua-lipa-1645328468294-682032201.jpeg",
+        "name": "Dua Lipa",
+        "songs": [
+          "6211bafe9aa9113f688eb157"
+        ],
+        "createdAt": "2022-02-20T03:42:01.896Z",
+        "updatedAt": "2022-02-20T09:31:26.103Z",
+        "__v": 3
+      }
+    }
+  ],
+  "total": 1
+}
+[17:21:46] [INFO] Getting categories
+[17:21:46] [INFO] Request query: {}
+[17:21:46] [INFO] Getting songs
+[17:21:46] [INFO] Request query: {
+  "albums": "621177be5ef3c3d9d5091211"
+}
+[17:21:46] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T09:31:26.114Z",
+      "__v": 8
+    }
+  ],
+  "total": 1
+}
+[17:21:46] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": "6211b88903c297293143ecc8",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T09:31:26.097Z",
+      "__v": 4,
+      "artist": {
+        "_id": "6211b88903c297293143ecc8",
+        "profile": "/musifyserver/dua-lipa-1645328468294-682032201.jpeg",
+        "name": "Dua Lipa",
+        "songs": [
+          "6211bafe9aa9113f688eb157"
+        ],
+        "createdAt": "2022-02-20T03:42:01.896Z",
+        "updatedAt": "2022-02-20T09:31:26.103Z",
+        "__v": 3
+      }
+    }
+  ],
+  "total": 1
+}
+[17:21:47] [INFO] Getting albums
+[17:21:47] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[17:21:47] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T09:31:26.109Z",
+      "__v": 5
+    }
+  ],
+  "total": 1
+}
+[17:23:12] [INFO] Getting categories
+[17:23:12] [INFO] Request query: {}
+[17:23:12] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T09:31:26.114Z",
+      "__v": 8
+    }
+  ],
+  "total": 1
+}
+[17:23:12] [INFO] Getting albums
+[17:23:12] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[17:23:12] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T09:31:26.109Z",
+      "__v": 5
+    }
+  ],
+  "total": 1
+}
+[17:23:40] [INFO] Getting songs
+[17:23:40] [INFO] Request query: {
+  "albums": "621177be5ef3c3d9d5091211"
+}
+[17:23:40] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": "6211b88903c297293143ecc8",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T09:31:26.097Z",
+      "__v": 4,
+      "artist": {
+        "_id": "6211b88903c297293143ecc8",
+        "profile": "/musifyserver/dua-lipa-1645328468294-682032201.jpeg",
+        "name": "Dua Lipa",
+        "songs": [
+          "6211bafe9aa9113f688eb157"
+        ],
+        "createdAt": "2022-02-20T03:42:01.896Z",
+        "updatedAt": "2022-02-20T09:31:26.103Z",
+        "__v": 3
+      }
+    }
+  ],
+  "total": 1
+}
+[17:29:47] [INFO] Getting categories
+[17:29:47] [INFO] Request query: {}
+[17:29:47] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T09:31:26.114Z",
+      "__v": 8
+    }
+  ],
+  "total": 1
+}
+[17:29:47] [INFO] Getting albums
+[17:29:47] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[17:29:47] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T09:31:26.109Z",
+      "__v": 5
+    }
+  ],
+  "total": 1
+}
+[17:30:07] [INFO] Getting songs
+[17:30:07] [INFO] Request query: {
+  "albums": "621177be5ef3c3d9d5091211"
+}
+[17:30:07] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": "6211b88903c297293143ecc8",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T09:31:26.097Z",
+      "__v": 4,
+      "artist": {
+        "_id": "6211b88903c297293143ecc8",
+        "profile": "/musifyserver/dua-lipa-1645328468294-682032201.jpeg",
+        "name": "Dua Lipa",
+        "songs": [
+          "6211bafe9aa9113f688eb157"
+        ],
+        "createdAt": "2022-02-20T03:42:01.896Z",
+        "updatedAt": "2022-02-20T09:31:26.103Z",
+        "__v": 3
+      }
+    }
+  ],
+  "total": 1
+}
+[17:31:12] [INFO] Getting categories
+[17:31:12] [INFO] Request query: {}
+[17:31:13] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T09:31:26.114Z",
+      "__v": 8
+    }
+  ],
+  "total": 1
+}
+[17:31:13] [INFO] Getting albums
+[17:31:13] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[17:31:13] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T09:31:26.109Z",
+      "__v": 5
+    }
+  ],
+  "total": 1
+}
+[17:32:05] [INFO] Getting songs
+[17:32:05] [INFO] Request query: {
+  "albums": "621177be5ef3c3d9d5091211"
+}
+[17:32:05] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": "6211b88903c297293143ecc8",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T09:31:26.097Z",
+      "__v": 4,
+      "artist": {
+        "_id": "6211b88903c297293143ecc8",
+        "profile": "/musifyserver/dua-lipa-1645328468294-682032201.jpeg",
+        "name": "Dua Lipa",
+        "songs": [
+          "6211bafe9aa9113f688eb157"
+        ],
+        "createdAt": "2022-02-20T03:42:01.896Z",
+        "updatedAt": "2022-02-20T09:31:26.103Z",
+        "__v": 3
+      }
+    }
+  ],
+  "total": 1
+}
+[17:32:36] [INFO] Getting categories
+[17:32:36] [INFO] Request query: {}
+[17:32:36] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T09:31:26.114Z",
+      "__v": 8
+    }
+  ],
+  "total": 1
+}
+[17:32:36] [INFO] Getting albums
+[17:32:36] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[17:32:36] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T09:31:26.109Z",
+      "__v": 5
+    }
+  ],
+  "total": 1
+}
+[17:32:39] [INFO] Getting songs
+[17:32:39] [INFO] Request query: {
+  "albums": "621177be5ef3c3d9d5091211"
+}
+[17:32:39] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": "6211b88903c297293143ecc8",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T09:31:26.097Z",
+      "__v": 4,
+      "artist": {
+        "_id": "6211b88903c297293143ecc8",
+        "profile": "/musifyserver/dua-lipa-1645328468294-682032201.jpeg",
+        "name": "Dua Lipa",
+        "songs": [
+          "6211bafe9aa9113f688eb157"
+        ],
+        "createdAt": "2022-02-20T03:42:01.896Z",
+        "updatedAt": "2022-02-20T09:31:26.103Z",
+        "__v": 3
+      }
+    }
+  ],
+  "total": 1
+}
+[17:40:17] [INFO] Getting categories
+[17:40:17] [INFO] Request query: {}
+[17:40:17] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T09:31:26.114Z",
+      "__v": 8
+    }
+  ],
+  "total": 1
+}
+[17:40:17] [INFO] Getting albums
+[17:40:17] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[17:40:17] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T09:31:26.109Z",
+      "__v": 5
+    }
+  ],
+  "total": 1
+}
+[17:41:54] [INFO] Getting songs
+[17:41:54] [INFO] Request query: {
+  "albums": "621177be5ef3c3d9d5091211"
+}
+[17:41:54] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": "6211b88903c297293143ecc8",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T09:31:26.097Z",
+      "__v": 4,
+      "artist": {
+        "_id": "6211b88903c297293143ecc8",
+        "profile": "/musifyserver/dua-lipa-1645328468294-682032201.jpeg",
+        "name": "Dua Lipa",
+        "songs": [
+          "6211bafe9aa9113f688eb157"
+        ],
+        "createdAt": "2022-02-20T03:42:01.896Z",
+        "updatedAt": "2022-02-20T09:31:26.103Z",
+        "__v": 3
+      }
+    }
+  ],
+  "total": 1
+}
+[17:43:29] [INFO] Getting categories
+[17:43:29] [INFO] Request query: {}
+[17:43:29] [INFO] Getting songs
+[17:43:29] [INFO] Request query: {
+  "albums": "621177be5ef3c3d9d5091211"
+}
+[17:43:29] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T09:31:26.114Z",
+      "__v": 8
+    }
+  ],
+  "total": 1
+}
+[17:43:29] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": "6211b88903c297293143ecc8",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T09:31:26.097Z",
+      "__v": 4,
+      "artist": {
+        "_id": "6211b88903c297293143ecc8",
+        "profile": "/musifyserver/dua-lipa-1645328468294-682032201.jpeg",
+        "name": "Dua Lipa",
+        "songs": [
+          "6211bafe9aa9113f688eb157"
+        ],
+        "createdAt": "2022-02-20T03:42:01.896Z",
+        "updatedAt": "2022-02-20T09:31:26.103Z",
+        "__v": 3
+      }
+    }
+  ],
+  "total": 1
+}
+[17:43:30] [INFO] Getting albums
+[17:43:30] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[17:43:30] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T09:31:26.109Z",
+      "__v": 5
+    }
+  ],
+  "total": 1
+}
+[17:44:52] [INFO] Getting categories
+[17:44:52] [INFO] Request query: {}
+[17:44:52] [INFO] Getting songs
+[17:44:52] [INFO] Request query: {
+  "albums": "621177be5ef3c3d9d5091211"
+}
+[17:44:52] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T09:31:26.114Z",
+      "__v": 8
+    }
+  ],
+  "total": 1
+}
+[17:44:52] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": "6211b88903c297293143ecc8",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T09:31:26.097Z",
+      "__v": 4,
+      "artist": {
+        "_id": "6211b88903c297293143ecc8",
+        "profile": "/musifyserver/dua-lipa-1645328468294-682032201.jpeg",
+        "name": "Dua Lipa",
+        "songs": [
+          "6211bafe9aa9113f688eb157"
+        ],
+        "createdAt": "2022-02-20T03:42:01.896Z",
+        "updatedAt": "2022-02-20T09:31:26.103Z",
+        "__v": 3
+      }
+    }
+  ],
+  "total": 1
+}
+[17:44:52] [INFO] Getting albums
+[17:44:52] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[17:44:52] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T09:31:26.109Z",
+      "__v": 5
+    }
+  ],
+  "total": 1
+}
+[17:45:43] [INFO] Getting songs
+[17:45:43] [INFO] Request query: {
+  "albums": "621177be5ef3c3d9d5091211"
+}
+[17:45:43] [INFO] Getting categories
+[17:45:43] [INFO] Request query: {}
+[17:45:43] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T09:31:26.114Z",
+      "__v": 8
+    }
+  ],
+  "total": 1
+}
+[17:45:43] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": "6211b88903c297293143ecc8",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T09:31:26.097Z",
+      "__v": 4,
+      "artist": {
+        "_id": "6211b88903c297293143ecc8",
+        "profile": "/musifyserver/dua-lipa-1645328468294-682032201.jpeg",
+        "name": "Dua Lipa",
+        "songs": [
+          "6211bafe9aa9113f688eb157"
+        ],
+        "createdAt": "2022-02-20T03:42:01.896Z",
+        "updatedAt": "2022-02-20T09:31:26.103Z",
+        "__v": 3
+      }
+    }
+  ],
+  "total": 1
+}
+[17:45:43] [INFO] Getting albums
+[17:45:43] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[17:45:43] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T09:31:26.109Z",
+      "__v": 5
+    }
+  ],
+  "total": 1
+}
+[17:46:02] [INFO] Getting songs
+[17:46:02] [INFO] Request query: {
+  "albums": "621177be5ef3c3d9d5091211"
+}
+[17:46:02] [INFO] Getting categories
+[17:46:02] [INFO] Request query: {}
+[17:46:02] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T09:31:26.114Z",
+      "__v": 8
+    }
+  ],
+  "total": 1
+}
+[17:46:03] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": "6211b88903c297293143ecc8",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T09:31:26.097Z",
+      "__v": 4,
+      "artist": {
+        "_id": "6211b88903c297293143ecc8",
+        "profile": "/musifyserver/dua-lipa-1645328468294-682032201.jpeg",
+        "name": "Dua Lipa",
+        "songs": [
+          "6211bafe9aa9113f688eb157"
+        ],
+        "createdAt": "2022-02-20T03:42:01.896Z",
+        "updatedAt": "2022-02-20T09:31:26.103Z",
+        "__v": 3
+      }
+    }
+  ],
+  "total": 1
+}
+[17:46:03] [INFO] Getting albums
+[17:46:03] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[17:46:03] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T09:31:26.109Z",
+      "__v": 5
+    }
+  ],
+  "total": 1
+}
+[17:47:59] [INFO] Getting categories
+[17:47:59] [INFO] Request query: {}
+[17:47:59] [INFO] Getting songs
+[17:47:59] [INFO] Request query: {
+  "albums": "621177be5ef3c3d9d5091211"
+}
+[17:47:59] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T09:31:26.114Z",
+      "__v": 8
+    }
+  ],
+  "total": 1
+}
+[17:47:59] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": "6211b88903c297293143ecc8",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T09:31:26.097Z",
+      "__v": 4,
+      "artist": {
+        "_id": "6211b88903c297293143ecc8",
+        "profile": "/musifyserver/dua-lipa-1645328468294-682032201.jpeg",
+        "name": "Dua Lipa",
+        "songs": [
+          "6211bafe9aa9113f688eb157"
+        ],
+        "createdAt": "2022-02-20T03:42:01.896Z",
+        "updatedAt": "2022-02-20T09:31:26.103Z",
+        "__v": 3
+      }
+    }
+  ],
+  "total": 1
+}
+[17:47:59] [INFO] Getting albums
+[17:47:59] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[17:47:59] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T09:31:26.109Z",
+      "__v": 5
+    }
+  ],
+  "total": 1
+}
+[17:48:22] [INFO] Getting songs
+[17:48:22] [INFO] Request query: {
+  "albums": "621177be5ef3c3d9d5091211"
+}
+[17:48:22] [INFO] Getting categories
+[17:48:22] [INFO] Request query: {}
+[17:48:22] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": "6211b88903c297293143ecc8",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T09:31:26.097Z",
+      "__v": 4,
+      "artist": {
+        "_id": "6211b88903c297293143ecc8",
+        "profile": "/musifyserver/dua-lipa-1645328468294-682032201.jpeg",
+        "name": "Dua Lipa",
+        "songs": [
+          "6211bafe9aa9113f688eb157"
+        ],
+        "createdAt": "2022-02-20T03:42:01.896Z",
+        "updatedAt": "2022-02-20T09:31:26.103Z",
+        "__v": 3
+      }
+    }
+  ],
+  "total": 1
+}
+[17:48:22] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T09:31:26.114Z",
+      "__v": 8
+    }
+  ],
+  "total": 1
+}
+[17:48:22] [INFO] Getting albums
+[17:48:22] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[17:48:22] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T09:31:26.109Z",
+      "__v": 5
+    }
+  ],
+  "total": 1
+}
+[17:50:16] [INFO] Getting songs
+[17:50:16] [INFO] Request query: {
+  "albums": "621177be5ef3c3d9d5091211"
+}
+[17:50:16] [INFO] Getting categories
+[17:50:16] [INFO] Request query: {}
+[17:50:16] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T09:31:26.114Z",
+      "__v": 8
+    }
+  ],
+  "total": 1
+}
+[17:50:16] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": "6211b88903c297293143ecc8",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T09:31:26.097Z",
+      "__v": 4,
+      "artist": {
+        "_id": "6211b88903c297293143ecc8",
+        "profile": "/musifyserver/dua-lipa-1645328468294-682032201.jpeg",
+        "name": "Dua Lipa",
+        "songs": [
+          "6211bafe9aa9113f688eb157"
+        ],
+        "createdAt": "2022-02-20T03:42:01.896Z",
+        "updatedAt": "2022-02-20T09:31:26.103Z",
+        "__v": 3
+      }
+    }
+  ],
+  "total": 1
+}
+[17:50:16] [INFO] Getting albums
+[17:50:16] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[17:50:16] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T09:31:26.109Z",
+      "__v": 5
+    }
+  ],
+  "total": 1
+}
+[17:50:38] [INFO] Getting categories
+[17:50:38] [INFO] Request query: {}
+[17:50:38] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-20T09:31:26.114Z",
+      "__v": 8
+    }
+  ],
+  "total": 1
+}
+[17:50:38] [INFO] Getting albums
+[17:50:38] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[17:50:38] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "/musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [
+        "6211bafe9aa9113f688eb157"
+      ],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-20T09:31:26.109Z",
+      "__v": 5
+    }
+  ],
+  "total": 1
+}
+[17:50:42] [INFO] Getting songs
+[17:50:42] [INFO] Request query: {
+  "albums": "621177be5ef3c3d9d5091211"
+}
+[17:50:42] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "6211bafe9aa9113f688eb157",
+      "name": "Levitating",
+      "description": "",
+      "url": "/storage/musics/Levitating.mp3",
+      "wallpaper": "/musifyserver/levitating-wallpaper-1645328975637-575707989.jpeg",
+      "duration": 230191,
+      "artistid": "6211b88903c297293143ecc8",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "lyrics": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-20T03:52:30.723Z",
+      "updatedAt": "2022-02-20T09:31:26.097Z",
+      "__v": 4,
+      "artist": {
+        "_id": "6211b88903c297293143ecc8",
+        "profile": "/musifyserver/dua-lipa-1645328468294-682032201.jpeg",
+        "name": "Dua Lipa",
+        "songs": [
+          "6211bafe9aa9113f688eb157"
+        ],
+        "createdAt": "2022-02-20T03:42:01.896Z",
+        "updatedAt": "2022-02-20T09:31:26.103Z",
+        "__v": 3
+      }
+    }
+  ],
+  "total": 1
+}
