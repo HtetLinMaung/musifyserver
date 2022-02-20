@@ -10,6 +10,8 @@ const { queryToMongoFilter } = require("../utils/mongoose-utils");
 const Song = require("../models/Song");
 const Album = require("../models/Album");
 const Category = require("../models/Category");
+const path = require("path");
+const { deleteFile, publicPath } = require("../utils/file-helper");
 
 const router = express.Router();
 
@@ -52,7 +54,7 @@ router
       }
 
       const response = { ...CREATED, data: album };
-      res.status(CREATED).json(response);
+      res.status(CREATED.code).json(response);
       logger.info(`Response: ${JSON.stringify(response, null, 2)}`);
     } catch (err) {
       logger.error(err.message);
@@ -212,6 +214,10 @@ router
         await category.save();
       }
 
+      if (data.wallpaper !== req.body.wallpaper) {
+        deleteFile(path.join(publicPath, data.wallpaper.split("/").pop()));
+      }
+
       for (const [k, v] of Object.entries({ ...req.body })) {
         if (!["_id"].includes(k)) {
           data[k] = v;
@@ -262,6 +268,23 @@ router
           .json({ ...NOT_FOUND, message: "Album not found" });
       }
 
+      const songs = await Song.find({
+        albums: data._id,
+      });
+      for (const song of songs) {
+        song.albums.pull(data._id);
+        await song.save();
+      }
+
+      const categories = await Category.find({
+        albums: data._id,
+      });
+      for (const category of categories) {
+        category.albums.pull(data._id);
+        await category.save();
+      }
+
+      deleteFile(path.join(publicPath, data.wallpaper.split("/").pop()));
       await data.remove();
 
       res.sendStatus(204);

@@ -1,0 +1,3561 @@
+05:22:08 - Server listening on port 3002
+[05:22:11] [INFO] Server listening on port 3002
+[05:22:18] [INFO] Server listening on port 3002
+[05:22:24] [INFO] Server listening on port 3002
+[05:22:35] [INFO] Server listening on port 3002
+[05:22:43] [INFO] Server listening on port 3002
+[05:22:45] [INFO] Server listening on port 3002
+[05:22:54] [INFO] Server listening on port 3002
+[05:28:22] [INFO] Server listening on port 3002
+[05:28:24] [INFO] Server listening on port 3002
+[05:28:26] [INFO] Server listening on port 3002
+[05:28:48] [INFO] Server listening on port 3002
+[05:28:50] [INFO] Server listening on port 3002
+[05:28:51] [INFO] Server listening on port 3002
+[05:28:54] [INFO] Server listening on port 3002
+[05:32:37] [INFO] Getting categories
+[05:32:37] [INFO] Request query: {}
+[05:32:37] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T04:52:37.578Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[05:35:34] [INFO] Creating album
+[05:35:34] [INFO] Request body: {
+  "name": "Top 100",
+  "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+  "categories": [
+    "621077951de644a70d1a6bb4"
+  ],
+  "songs": []
+}
+[05:35:35] [ERROR] Invalid status code: { code: 201, message: 'Created Successful' }
+[05:35:52] [INFO] Server listening on port 3002
+[05:35:53] [INFO] Server listening on port 3002
+[05:36:45] [INFO] Getting albums
+[05:36:45] [INFO] Request query: {}
+[05:36:45] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[05:46:39] [INFO] Getting albums
+[05:46:39] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[05:46:39] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[06:04:19] [INFO] Getting categories
+[06:04:20] [INFO] Request query: {}
+[06:04:20] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[06:04:20] [INFO] Getting albums
+[06:04:20] [INFO] Request query: {
+  "categories": "null"
+}
+[06:04:20] [ERROR] Cast to ObjectId failed for value "null" (type string) at path "categories" for model "Album"
+[06:06:04] [INFO] Getting categories
+[06:06:04] [INFO] Request query: {}
+[06:06:04] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[06:06:04] [INFO] Getting albums
+[06:06:04] [INFO] Request query: {
+  "categories": "null"
+}
+[06:06:04] [ERROR] Cast to ObjectId failed for value "null" (type string) at path "categories" for model "Album"
+[06:13:44] [INFO] Getting categories
+[06:13:44] [INFO] Request query: {}
+[06:13:44] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[06:13:44] [INFO] Getting albums
+[06:13:44] [INFO] Request query: {
+  "categories": "null"
+}
+[06:13:44] [ERROR] Cast to ObjectId failed for value "null" (type string) at path "categories" for model "Album"
+[06:19:57] [INFO] Getting categories
+[06:19:57] [INFO] Request query: {}
+[06:19:57] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[06:19:57] [INFO] Getting albums
+[06:19:57] [INFO] Request query: {
+  "categories": "null"
+}
+[06:19:57] [ERROR] Cast to ObjectId failed for value "null" (type string) at path "categories" for model "Album"
+[06:20:38] [INFO] Getting categories
+[06:20:38] [INFO] Request query: {}
+[06:20:38] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[06:20:39] [INFO] Getting albums
+[06:20:39] [INFO] Request query: {
+  "categories": "null"
+}
+[06:20:39] [ERROR] Cast to ObjectId failed for value "null" (type string) at path "categories" for model "Album"
+[06:24:06] [INFO] Getting categories
+[06:24:06] [INFO] Request query: {}
+[06:24:08] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[06:24:08] [INFO] Getting albums
+[06:24:08] [INFO] Request query: {
+  "categories": "null"
+}
+[06:24:08] [ERROR] Cast to ObjectId failed for value "null" (type string) at path "categories" for model "Album"
+[06:25:57] [INFO] Getting categories
+[06:25:57] [INFO] Request query: {}
+[06:25:57] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[06:25:57] [INFO] Getting albums
+[06:25:57] [INFO] Request query: {
+  "categories": "null"
+}
+[06:25:57] [ERROR] Cast to ObjectId failed for value "null" (type string) at path "categories" for model "Album"
+[06:28:44] [INFO] Getting categories
+[06:28:44] [INFO] Request query: {}
+[06:28:44] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[06:28:44] [INFO] Getting albums
+[06:28:44] [INFO] Request query: {
+  "categories": "null"
+}
+[06:28:44] [ERROR] Cast to ObjectId failed for value "null" (type string) at path "categories" for model "Album"
+[06:29:22] [INFO] Getting categories
+[06:29:22] [INFO] Request query: {}
+[06:29:22] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[06:29:22] [INFO] Getting albums
+[06:29:22] [INFO] Request query: {
+  "categories": "null"
+}
+[06:29:22] [ERROR] Cast to ObjectId failed for value "null" (type string) at path "categories" for model "Album"
+[06:29:27] [INFO] Getting categories
+[06:29:27] [INFO] Request query: {}
+[06:29:27] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[06:29:27] [INFO] Getting albums
+[06:29:27] [INFO] Request query: {
+  "categories": "null"
+}
+[06:29:27] [ERROR] Cast to ObjectId failed for value "null" (type string) at path "categories" for model "Album"
+[06:29:52] [INFO] Getting categories
+[06:29:52] [INFO] Request query: {}
+[06:29:52] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[06:29:52] [INFO] Getting albums
+[06:29:52] [INFO] Request query: {
+  "categories": "null"
+}
+[06:29:52] [ERROR] Cast to ObjectId failed for value "null" (type string) at path "categories" for model "Album"
+[06:29:56] [INFO] Getting categories
+[06:29:56] [INFO] Request query: {}
+[06:29:56] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[06:29:56] [INFO] Getting albums
+[06:29:56] [INFO] Request query: {
+  "categories": "null"
+}
+[06:29:56] [ERROR] Cast to ObjectId failed for value "null" (type string) at path "categories" for model "Album"
+[06:30:59] [INFO] Getting categories
+[06:30:59] [INFO] Request query: {}
+[06:30:59] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[06:30:59] [INFO] Getting albums
+[06:30:59] [INFO] Request query: {
+  "categories": "null"
+}
+[06:30:59] [ERROR] Cast to ObjectId failed for value "null" (type string) at path "categories" for model "Album"
+[06:32:40] [INFO] Getting categories
+[06:32:40] [INFO] Request query: {}
+[06:32:40] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[06:32:40] [INFO] Getting albums
+[06:32:40] [INFO] Request query: {
+  "categories": "null"
+}
+[06:32:40] [ERROR] Cast to ObjectId failed for value "null" (type string) at path "categories" for model "Album"
+[06:33:04] [INFO] Getting categories
+[06:33:04] [INFO] Request query: {}
+[06:33:04] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[06:33:04] [INFO] Getting albums
+[06:33:04] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[06:33:04] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[06:33:33] [INFO] Getting categories
+[06:33:33] [INFO] Request query: {}
+[06:33:33] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[06:33:33] [INFO] Getting albums
+[06:33:33] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[06:33:33] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[06:34:11] [INFO] Getting categories
+[06:34:11] [INFO] Request query: {}
+[06:34:11] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[06:34:11] [INFO] Getting albums
+[06:34:11] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[06:34:12] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[06:34:39] [INFO] Getting categories
+[06:34:39] [INFO] Request query: {}
+[06:34:39] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[06:34:40] [INFO] Getting albums
+[06:34:40] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[06:34:40] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[06:35:03] [INFO] Getting categories
+[06:35:03] [INFO] Request query: {}
+[06:35:03] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[06:35:03] [INFO] Getting albums
+[06:35:03] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[06:35:03] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[06:36:58] [INFO] Getting categories
+[06:36:58] [INFO] Request query: {}
+[06:36:58] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[06:36:58] [INFO] Getting albums
+[06:36:58] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[06:36:58] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[06:37:11] [INFO] Getting categories
+[06:37:11] [INFO] Request query: {}
+[06:37:11] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[06:37:11] [INFO] Getting albums
+[06:37:11] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[06:37:11] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[06:37:55] [INFO] Getting categories
+[06:37:55] [INFO] Request query: {}
+[06:37:55] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[06:37:55] [INFO] Getting albums
+[06:37:55] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[06:37:55] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[06:38:07] [INFO] Getting categories
+[06:38:07] [INFO] Request query: {}
+[06:38:07] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[06:38:07] [INFO] Getting albums
+[06:38:07] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[06:38:07] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[06:38:14] [INFO] Getting categories
+[06:38:14] [INFO] Request query: {}
+[06:38:14] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[06:38:14] [INFO] Getting albums
+[06:38:14] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[06:38:14] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[06:38:31] [INFO] Getting categories
+[06:38:31] [INFO] Request query: {}
+[06:38:32] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[06:38:32] [INFO] Getting albums
+[06:38:32] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[06:38:32] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[06:38:53] [INFO] Getting categories
+[06:38:53] [INFO] Request query: {}
+[06:38:53] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[06:38:53] [INFO] Getting albums
+[06:38:53] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[06:38:54] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[06:39:04] [INFO] Getting categories
+[06:39:04] [INFO] Request query: {}
+[06:39:04] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[06:39:04] [INFO] Getting albums
+[06:39:04] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[06:39:04] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[06:39:20] [INFO] Getting categories
+[06:39:20] [INFO] Request query: {}
+[06:39:20] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[06:39:20] [INFO] Getting albums
+[06:39:20] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[06:39:21] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[06:39:37] [INFO] Getting categories
+[06:39:37] [INFO] Request query: {}
+[06:39:37] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[06:39:37] [INFO] Getting albums
+[06:39:37] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[06:39:37] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[06:39:58] [INFO] Getting categories
+[06:39:58] [INFO] Request query: {}
+[06:39:59] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[06:39:59] [INFO] Getting albums
+[06:39:59] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[06:39:59] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[06:40:05] [INFO] Getting categories
+[06:40:05] [INFO] Request query: {}
+[06:40:06] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[06:40:06] [INFO] Getting albums
+[06:40:06] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[06:40:06] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[06:40:47] [INFO] Getting categories
+[06:40:47] [INFO] Request query: {}
+[06:40:47] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[06:40:47] [INFO] Getting albums
+[06:40:47] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[06:40:47] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[06:40:54] [INFO] Getting categories
+[06:40:54] [INFO] Request query: {}
+[06:40:54] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[06:40:54] [INFO] Getting albums
+[06:40:54] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[06:40:55] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[06:41:02] [INFO] Getting categories
+[06:41:02] [INFO] Request query: {}
+[06:41:02] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[06:41:02] [INFO] Getting albums
+[06:41:02] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[06:41:02] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[06:41:14] [INFO] Getting categories
+[06:41:14] [INFO] Request query: {}
+[06:41:15] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[06:41:15] [INFO] Getting albums
+[06:41:15] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[06:41:15] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[06:41:58] [INFO] Getting categories
+[06:41:58] [INFO] Request query: {}
+[06:41:58] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[06:41:58] [INFO] Getting albums
+[06:41:58] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[06:41:59] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[06:43:16] [INFO] Getting categories
+[06:43:16] [INFO] Request query: {}
+[06:43:16] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[06:43:16] [INFO] Getting albums
+[06:43:16] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[06:43:17] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[06:43:40] [INFO] Getting categories
+[06:43:40] [INFO] Request query: {}
+[06:43:41] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[06:43:41] [INFO] Getting albums
+[06:43:41] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[06:43:41] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[06:44:19] [INFO] Getting categories
+[06:44:19] [INFO] Request query: {}
+[06:44:19] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[06:44:19] [INFO] Getting albums
+[06:44:19] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[06:44:19] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[06:44:23] [INFO] Getting categories
+[06:44:23] [INFO] Request query: {}
+[06:44:23] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[06:44:23] [INFO] Getting albums
+[06:44:23] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[06:44:23] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[06:44:35] [INFO] Getting categories
+[06:44:35] [INFO] Request query: {}
+[06:44:36] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[06:44:36] [INFO] Getting albums
+[06:44:36] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[06:44:36] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[06:45:17] [INFO] Getting categories
+[06:45:17] [INFO] Request query: {}
+[06:45:17] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[06:45:17] [INFO] Getting albums
+[06:45:17] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[06:45:17] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[06:45:24] [INFO] Getting categories
+[06:45:24] [INFO] Request query: {}
+[06:45:24] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[06:45:24] [INFO] Getting albums
+[06:45:24] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[06:45:24] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[06:45:26] [INFO] Getting categories
+[06:45:26] [INFO] Request query: {}
+[06:45:26] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[06:45:26] [INFO] Getting albums
+[06:45:26] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[06:45:27] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[06:45:29] [INFO] Getting categories
+[06:45:29] [INFO] Request query: {}
+[06:45:29] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[06:45:29] [INFO] Getting albums
+[06:45:29] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[06:45:29] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[06:47:08] [INFO] Getting categories
+[06:47:08] [INFO] Request query: {}
+[06:47:08] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[06:47:08] [INFO] Getting albums
+[06:47:08] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[06:47:08] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[06:47:45] [INFO] Getting categories
+[06:47:45] [INFO] Request query: {}
+[06:47:45] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[06:47:45] [INFO] Getting albums
+[06:47:45] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[06:47:45] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[06:47:47] [INFO] Getting categories
+[06:47:47] [INFO] Request query: {}
+[06:47:47] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[06:47:47] [INFO] Getting albums
+[06:47:47] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[06:47:47] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[06:48:05] [INFO] Getting categories
+[06:48:05] [INFO] Request query: {}
+[06:48:05] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[06:48:05] [INFO] Getting albums
+[06:48:05] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[06:48:05] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[06:48:10] [INFO] Getting categories
+[06:48:10] [INFO] Request query: {}
+[06:48:10] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[06:48:10] [INFO] Getting albums
+[06:48:10] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[06:48:10] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[06:48:25] [INFO] Getting categories
+[06:48:25] [INFO] Request query: {}
+[06:48:25] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[06:48:25] [INFO] Getting albums
+[06:48:25] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[06:48:25] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[09:16:31] [INFO] Getting categories
+[09:16:31] [INFO] Request query: {}
+[09:16:31] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[09:16:32] [INFO] Getting albums
+[09:16:32] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[09:16:32] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[09:18:09] [INFO] Getting categories
+[09:18:09] [INFO] Request query: {}
+[09:18:10] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[09:18:10] [INFO] Getting albums
+[09:18:10] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[09:18:10] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[09:18:46] [INFO] Getting categories
+[09:18:46] [INFO] Request query: {}
+[09:18:46] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[09:18:46] [INFO] Getting albums
+[09:18:46] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[09:18:46] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[09:19:16] [INFO] Getting categories
+[09:19:16] [INFO] Request query: {}
+[09:19:17] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[09:19:17] [INFO] Getting albums
+[09:19:17] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[09:19:17] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[09:19:50] [INFO] Getting categories
+[09:19:50] [INFO] Request query: {}
+[09:19:50] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[09:19:50] [INFO] Getting albums
+[09:19:50] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[09:19:50] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[09:20:03] [INFO] Getting categories
+[09:20:03] [INFO] Request query: {}
+[09:20:04] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[09:20:04] [INFO] Getting albums
+[09:20:04] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[09:20:04] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[09:20:13] [INFO] Getting categories
+[09:20:13] [INFO] Request query: {}
+[09:20:13] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[09:20:13] [INFO] Getting albums
+[09:20:13] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[09:20:13] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[09:20:26] [INFO] Getting categories
+[09:20:26] [INFO] Request query: {}
+[09:20:26] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[09:20:26] [INFO] Getting albums
+[09:20:26] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[09:20:27] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[09:20:32] [INFO] Getting categories
+[09:20:32] [INFO] Request query: {}
+[09:20:32] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[09:20:32] [INFO] Getting albums
+[09:20:32] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[09:20:32] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[09:20:36] [INFO] Getting categories
+[09:20:36] [INFO] Request query: {}
+[09:20:37] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[09:20:37] [INFO] Getting albums
+[09:20:37] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[09:20:37] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[09:20:40] [INFO] Getting categories
+[09:20:40] [INFO] Request query: {}
+[09:20:40] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[09:20:40] [INFO] Getting albums
+[09:20:40] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[09:20:40] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[09:21:39] [INFO] Getting categories
+[09:21:39] [INFO] Request query: {}
+[09:21:39] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[09:21:39] [INFO] Getting albums
+[09:21:39] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[09:21:39] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[09:22:22] [INFO] Getting categories
+[09:22:22] [INFO] Request query: {}
+[09:22:23] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[09:22:23] [INFO] Getting albums
+[09:22:23] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[09:22:23] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[09:22:38] [INFO] Getting categories
+[09:22:38] [INFO] Request query: {}
+[09:22:38] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[09:22:38] [INFO] Getting albums
+[09:22:38] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[09:22:39] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[09:23:19] [INFO] Getting categories
+[09:23:19] [INFO] Request query: {}
+[09:23:19] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[09:23:19] [INFO] Getting albums
+[09:23:19] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[09:23:19] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[09:23:33] [INFO] Getting categories
+[09:23:33] [INFO] Request query: {}
+[09:23:33] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[09:23:33] [INFO] Getting albums
+[09:23:33] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[09:23:33] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[09:23:51] [INFO] Getting categories
+[09:23:51] [INFO] Request query: {}
+[09:23:51] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[09:23:51] [INFO] Getting albums
+[09:23:51] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[09:23:51] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[09:24:11] [INFO] Getting categories
+[09:24:11] [INFO] Request query: {}
+[09:24:12] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[09:24:12] [INFO] Getting albums
+[09:24:12] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[09:24:12] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[09:24:27] [INFO] Getting categories
+[09:24:27] [INFO] Request query: {}
+[09:24:28] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[09:24:28] [INFO] Getting albums
+[09:24:28] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[09:24:28] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[09:24:36] [INFO] Getting categories
+[09:24:36] [INFO] Request query: {}
+[09:24:36] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[09:24:36] [INFO] Getting albums
+[09:24:36] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[09:24:36] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[09:24:41] [INFO] Getting categories
+[09:24:41] [INFO] Request query: {}
+[09:24:41] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[09:24:41] [INFO] Getting albums
+[09:24:41] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[09:24:41] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[09:24:43] [INFO] Getting categories
+[09:24:43] [INFO] Request query: {}
+[09:24:44] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[09:24:44] [INFO] Getting albums
+[09:24:44] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[09:24:44] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[09:25:19] [INFO] Getting categories
+[09:25:19] [INFO] Request query: {}
+[09:25:20] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[09:25:20] [INFO] Getting albums
+[09:25:20] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[09:25:20] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[09:25:26] [INFO] Getting categories
+[09:25:26] [INFO] Request query: {}
+[09:25:26] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[09:25:26] [INFO] Getting albums
+[09:25:26] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[09:25:27] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[09:25:30] [INFO] Getting categories
+[09:25:30] [INFO] Request query: {}
+[09:25:30] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[09:25:30] [INFO] Getting albums
+[09:25:30] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[09:25:30] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[09:25:34] [INFO] Getting categories
+[09:25:34] [INFO] Request query: {}
+[09:25:34] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[09:25:34] [INFO] Getting albums
+[09:25:34] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[09:25:34] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[09:25:52] [INFO] Getting categories
+[09:25:52] [INFO] Request query: {}
+[09:25:52] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[09:25:52] [INFO] Getting albums
+[09:25:52] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[09:25:52] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[09:26:00] [INFO] Getting categories
+[09:26:00] [INFO] Request query: {}
+[09:26:00] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[09:26:00] [INFO] Getting albums
+[09:26:00] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[09:26:00] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[09:26:03] [INFO] Getting categories
+[09:26:03] [INFO] Request query: {}
+[09:26:03] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[09:26:03] [INFO] Getting albums
+[09:26:03] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[09:26:03] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[09:26:14] [INFO] Getting categories
+[09:26:14] [INFO] Request query: {}
+[09:26:14] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[09:26:14] [INFO] Getting albums
+[09:26:14] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[09:26:14] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[09:26:26] [INFO] Getting categories
+[09:26:26] [INFO] Request query: {}
+[09:26:26] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[09:26:26] [INFO] Getting albums
+[09:26:26] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[09:26:26] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[09:26:32] [INFO] Getting categories
+[09:26:32] [INFO] Request query: {}
+[09:26:32] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[09:26:32] [INFO] Getting albums
+[09:26:32] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[09:26:33] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[09:26:37] [INFO] Getting categories
+[09:26:37] [INFO] Request query: {}
+[09:26:37] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621077951de644a70d1a6bb4",
+      "name": "New Music",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "albums": [
+        "621177be5ef3c3d9d5091211"
+      ],
+      "songs": [],
+      "createdAt": "2022-02-19T04:52:37.578Z",
+      "updatedAt": "2022-02-19T23:05:35.016Z",
+      "__v": 1
+    }
+  ],
+  "total": 1
+}
+[09:26:37] [INFO] Getting albums
+[09:26:37] [INFO] Request query: {
+  "categories": "621077951de644a70d1a6bb4"
+}
+[09:26:37] [INFO] Response: {
+  "code": 200,
+  "message": "Success",
+  "data": [
+    {
+      "_id": "621177be5ef3c3d9d5091211",
+      "name": "Top 100",
+      "wallpaper": "musifyserver/pexels-photo-1021876-1645246038454-744224240.jpeg",
+      "songs": [],
+      "categories": [
+        "621077951de644a70d1a6bb4"
+      ],
+      "createdAt": "2022-02-19T23:05:34.814Z",
+      "updatedAt": "2022-02-19T23:05:34.814Z",
+      "__v": 0
+    }
+  ],
+  "total": 1
+}
+[09:30:01] [INFO] Server listening on port 3002
+[09:30:06] [INFO] Server listening on port 3002
+[09:30:09] [INFO] Server listening on port 3002
+[09:30:14] [INFO] Server listening on port 3002
+[09:30:15] [INFO] Server listening on port 3002
+[09:30:18] [INFO] Server listening on port 3002
+[09:30:21] [INFO] Server listening on port 3002
+[09:30:24] [INFO] Server listening on port 3002
+[09:30:39] [INFO] Server listening on port 3002
+[09:30:40] [INFO] Server listening on port 3002
+[09:31:46] [INFO] Server listening on port 3002
+[09:32:06] [INFO] Server listening on port 3002
+[09:34:36] [INFO] Server listening on port 3002
+[09:34:45] [INFO] Server listening on port 3002
+[09:35:05] [INFO] Server listening on port 3002
+[09:35:15] [INFO] Server listening on port 3002
+[09:35:22] [INFO] Server listening on port 3002
+[09:35:40] [INFO] Server listening on port 3002
+[09:35:42] [INFO] Server listening on port 3002
+[09:35:43] [INFO] Server listening on port 3002
+[09:35:52] [INFO] Server listening on port 3002
+[09:35:53] [INFO] Server listening on port 3002
+[09:36:00] [INFO] Server listening on port 3002
+[09:36:21] [INFO] Server listening on port 3002
+[09:36:23] [INFO] Server listening on port 3002
+[09:36:29] [INFO] Server listening on port 3002
+[09:36:40] [INFO] Server listening on port 3002

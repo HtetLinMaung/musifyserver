@@ -21,6 +21,7 @@ app.use("/musifyserver/storage", require("./routes/storage-route"));
 app.use("/musifyserver/artists", require("./routes/artist-route"));
 app.use("/musifyserver/albums", require("./routes/album-route"));
 app.use("/musifyserver/songs", require("./routes/song-route"));
+app.use("/musifyserver/categories", require("./routes/category-route"));
 
 app.get("/stream", (req, res) => {
   const music = "storage/musics/music.mp3"; // filepath

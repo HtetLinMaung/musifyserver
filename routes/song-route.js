@@ -13,6 +13,8 @@ const Artist = require("../models/Artist");
 const Album = require("../models/Album");
 const Category = require("../models/Category");
 const { queryToMongoFilter } = require("../utils/mongoose-utils");
+const path = require("path");
+const { musicPath, deleteFile, publicPath } = require("../utils/file-helper");
 
 const router = express.Router();
 
@@ -210,6 +212,9 @@ router
       logger.info("Updating song");
       logger.info(`Request params: ${JSON.stringify(req.params, null, 2)}`);
       logger.info(`Request body: ${JSON.stringify(req.body, null, 2)}`);
+      const buffer = fs.readFileSync(req.body.url);
+      const duration = getMP3Duration(buffer);
+
       const data = await Song.findById(req.params.id);
       if (!data) {
         return res
@@ -241,11 +246,19 @@ router
         await category.save();
       }
 
+      if (data.wallpaper !== req.body.wallpaper) {
+        deleteFile(path.join(publicPath, data.wallpaper.split("/").pop()));
+      }
+      if (data.url !== req.body.url) {
+        deleteFile(path.join(musicPath, data.url.split("/").pop()));
+      }
+
       for (const [k, v] of Object.entries({ ...req.body })) {
         if (!["_id"].includes(k)) {
           data[k] = v;
         }
       }
+      data.duration = duration;
       await data.save();
 
       if (req.body.artistid) {
@@ -297,6 +310,31 @@ router
           .status(NOT_FOUND.code)
           .json({ ...NOT_FOUND, message: "Song not found" });
       }
+      const artist = await Artist.findById(data.artistid);
+      if (!artist) {
+        return res
+          .status(NOT_FOUND.code)
+          .json({ ...NOT_FOUND, message: "Artist not found" });
+      }
+      artist.songs.pull(data._id);
+
+      const albums = await Album.find({
+        songs: data._id,
+      });
+      for (const album of albums) {
+        album.songs.pull(data._id);
+        await album.save();
+      }
+
+      const categories = await Category.find({
+        songs: data._id,
+      });
+      for (const category of categories) {
+        category.songs.pull(data._id);
+        await category.save();
+      }
+      deleteFile(path.join(publicPath, data.wallpaper.split("/").pop()));
+      deleteFile(path.join(musicPath, data.url.split("/").pop()));
 
       await data.remove();
 

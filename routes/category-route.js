@@ -9,6 +9,10 @@ const logger = require("../utils/logger");
 const Artist = require("../models/Artist");
 const { queryToMongoFilter } = require("../utils/mongoose-utils");
 const Song = require("../models/Song");
+const Album = require("../models/Album");
+const Category = require("../models/Category");
+const { deleteFile, publicPath } = require("../utils/file-helper");
+const path = require("path");
 
 const router = express.Router();
 
@@ -16,28 +20,43 @@ router
   .route("/")
   .post(async (req, res) => {
     try {
-      logger.info("Creating artist");
+      logger.info("Creating category");
       logger.info(`Request body: ${JSON.stringify(req.body, null, 2)}`);
-      const artist = new Artist({
+
+      const category = new Category({
         name: req.body.name,
-        profile: req.body.profile,
+        wallpaper: req.body.wallpaper,
+        albums: req.body.albums,
         songs: req.body.songs,
       });
-      await artist.save();
+      await category.save();
 
-      if (artist.songs.length) {
+      if (category.albums.length) {
+        const albums = await Album.find({
+          _id: {
+            $in: category.albums,
+          },
+        });
+        for (const album of albums) {
+          album.categories.push(category._id);
+          await album.save();
+        }
+      }
+
+      if (category.songs.length) {
         const songs = await Song.find({
           _id: {
-            $in: artist.songs,
+            $in: category.songs,
           },
         });
         for (const song of songs) {
-          song.artistid = artist._id;
+          song.categories.push(category._id);
           await song.save();
         }
       }
-      const response = { ...CREATED, data: artist };
-      res.status(CREATED).json(response);
+
+      const response = { ...CREATED, data: category };
+      res.status(CREATED.code).json(response);
       logger.info(`Response: ${JSON.stringify(response, null, 2)}`);
     } catch (err) {
       logger.error(err.message);
@@ -46,7 +65,7 @@ router
   })
   .get(async (req, res) => {
     try {
-      logger.info("Getting artists");
+      logger.info("Getting categories");
       logger.info(`Request query: ${JSON.stringify(req.query, null, 2)}`);
       const filter = {};
 
@@ -106,21 +125,21 @@ router
           });
         }
 
-        data = await Artist.aggregate(aggregate);
+        data = await Category.aggregate(aggregate);
         total = data.length;
       } else {
-        total = await Artist.find(filter).countDocuments();
+        total = await Category.find(filter).countDocuments();
 
         if (page && perpage) {
           pagination = { page, perpage };
           const offset = (page - 1) * perpage;
           if (sort) {
-            data = await Artist.find(filter, req.query.projection || "")
+            data = await Category.find(filter, req.query.projection || "")
               .sort(sortOptions)
               .skip(offset)
               .limit(perpage);
           } else {
-            data = await Artist.find(filter, req.query.projection || "")
+            data = await Category.find(filter, req.query.projection || "")
               .skip(offset)
               .limit(perpage);
           }
@@ -128,11 +147,11 @@ router
           pagination.pagecounts = Math.ceil(total / perpage);
         } else {
           if (sort) {
-            data = await Artist.find(filter, req.query.projection || "").sort(
+            data = await Category.find(filter, req.query.projection || "").sort(
               sortOptions
             );
           } else {
-            data = await Artist.find(filter, req.query.projection || "");
+            data = await Category.find(filter, req.query.projection || "");
           }
         }
       }
@@ -150,16 +169,16 @@ router
   .route("/:id")
   .get(async (req, res) => {
     try {
-      logger.info("Getting artist");
+      logger.info("Getting category");
       logger.info(`Request params: ${JSON.stringify(req.params, null, 2)}`);
-      const data = await Artist.findById(
+      const data = await Category.findById(
         req.params.id,
         req.query.projection || ""
-      ).populate("songs");
+      ).populate(["songs", "albums"]);
       if (!data) {
         return res
           .status(NOT_FOUND.code)
-          .json({ ...NOT_FOUND, message: "Artist not found" });
+          .json({ ...NOT_FOUND, message: "Category not found" });
       }
       const response = { ...OK, data };
       res.json(response);
@@ -171,21 +190,34 @@ router
   })
   .put(async (req, res) => {
     try {
-      logger.info("Updating artist");
+      logger.info("Updating category");
       logger.info(`Request params: ${JSON.stringify(req.params, null, 2)}`);
       logger.info(`Request body: ${JSON.stringify(req.body, null, 2)}`);
-      const data = await Artist.findById(req.params.id);
+      const data = await Category.findById(req.params.id);
       if (!data) {
         return res
           .status(NOT_FOUND.code)
-          .json({ ...NOT_FOUND, message: "Artist not found" });
+          .json({ ...NOT_FOUND, message: "Category not found" });
       }
+
+      const albums = await Album.find({
+        categories: data._id,
+      });
+      for (const album of albums) {
+        album.categories.pull(data._id);
+        await album.save();
+      }
+
       const songs = await Song.find({
-        artistid: data._id,
+        categories: data._id,
       });
       for (const song of songs) {
-        song.artistid = null;
+        song.categories.pull(data._id);
         await song.save();
+      }
+
+      if (data.wallpaper !== req.body.wallpaper) {
+        deleteFile(path.join(publicPath, data.wallpaper.split("/").pop()));
       }
 
       for (const [k, v] of Object.entries({ ...req.body })) {
@@ -195,6 +227,18 @@ router
       }
       await data.save();
 
+      if (data.albums.length) {
+        const albums = await Album.find({
+          _id: {
+            $in: data.albums,
+          },
+        });
+        for (const album of albums) {
+          album.categories.push(data._id);
+          await album.save();
+        }
+      }
+
       if (data.songs.length) {
         const songs = await Song.find({
           _id: {
@@ -202,7 +246,7 @@ router
           },
         });
         for (const song of songs) {
-          song.artistid = data._id;
+          song.categories.push(data._id);
           await song.save();
         }
       }
@@ -217,22 +261,31 @@ router
   })
   .delete(async (req, res) => {
     try {
-      logger.info("Deleting artist");
+      logger.info("Deleting category");
       logger.info(`Request params: ${JSON.stringify(req.params, null, 2)}`);
       const data = await Artist.findById(req.params.id);
       if (!data) {
         return res
           .status(NOT_FOUND.code)
-          .json({ ...NOT_FOUND, message: "Artist not found" });
+          .json({ ...NOT_FOUND, message: "Category not found" });
+      }
+      const albums = await Album.find({
+        categories: data._id,
+      });
+      for (const album of albums) {
+        album.categories.pull(data._id);
+        await album.save();
       }
 
       const songs = await Song.find({
-        artistid: data._id,
+        categories: data._id,
       });
       for (const song of songs) {
-        song.artistid = null;
+        song.categories.pull(data._id);
         await song.save();
       }
+
+      deleteFile(path.join(publicPath, data.wallpaper.split("/").pop()));
 
       await data.remove();
 
@@ -242,4 +295,5 @@ router
       res.status(SERVER_ERROR.code).json(SERVER_ERROR);
     }
   });
+
 module.exports = router;
